@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+
+  <body>
+    {% include page-header-notes.html %}
+
+
+    <section class="main-content">
+      
+      {{ content }}
+
+      {% include page-footer.html %}
+
+    </section>
+
+  </body>
+
+<!-- Table of Content Script -->
+<script type="text/javascript">
+var bodyContents = $(".bodyContents1");
+$("<ol>").addClass("TOC1ul").appendTo(".TOC1");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC1ul");
+     });
+// 
+var bodyContents = $(".bodyContents2");
+$("<ol>").addClass("TOC2ul").appendTo(".TOC2");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC2ul");
+     });
+// 
+var bodyContents = $(".bodyContents3");
+$("<ol>").addClass("TOC3ul").appendTo(".TOC3");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC3ul");
+     });
+//
+var bodyContents = $(".bodyContents4");
+$("<ol>").addClass("TOC4ul").appendTo(".TOC4");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC4ul");
+     });
+//
+var bodyContents = $(".bodyContents5");
+$("<ol>").addClass("TOC5ul").appendTo(".TOC5");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC5ul");
+     });
+//
+var bodyContents = $(".bodyContents6");
+$("<ol>").addClass("TOC6ul").appendTo(".TOC6");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC6ul");
+     });
+//
+var bodyContents = $(".bodyContents7");
+$("<ol>").addClass("TOC7ul").appendTo(".TOC7");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC7ul");
+     });
+//
+var bodyContents = $(".bodyContents8");
+$("<ol>").addClass("TOC8ul").appendTo(".TOC8");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC8ul");
+     });
+//
+var bodyContents = $(".bodyContents9");
+$("<ol>").addClass("TOC9ul").appendTo(".TOC9");
+bodyContents.each(function(index, element) {
+    var paragraph = $(element);
+    $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC9ul");
+     });
+
+</script>
+
+<!-- VIDEO BUTTONS SCRIPT -->
+<script type="text/javascript">
+  function iframePopInject(event) {
+    var $button = $(event.target);
+    // console.log($button.parent().next());
+    if ($button.attr('value') == 'show') {
+        $button.attr('value', 'hide');
+        $figure = $("<div>").addClass("video_container");
+        $iframe = $("<iframe>").appendTo($figure);
+        $iframe.attr("src", $button.attr("src"));
+        // $iframe.attr("frameborder", "0");
+        $iframe.attr("allowfullscreen", "true");
+        $iframe.css("padding", "4px 6px");
+        $button.next().css("display", "block");
+        $figure.appendTo($button.next());
+        $button.text("Hide Video")
+    } else {
+        $button.attr('value', 'show');
+        $button.next().html("");
+        $button.text("Show Video")
+    }
+}
+</script>
+
+<!-- BUTTON TRY -->
+<script type="text/javascript">
+  function iframePopA(event) {
+    event.preventDefault();
+    var $a = $(event.target).parent();
+    console.log($a);
+    if ($a.attr('value') == 'show') {
+        $a.attr('value', 'hide');
+        $figure = $("<div>");
+        $iframe = $("<iframe>").addClass("popup_website_container").appendTo($figure);
+        $iframe.attr("src", $a.attr("href"));
+        $iframe.attr("frameborder", "1");
+        $iframe.attr("allowfullscreen", "true");
+        $iframe.css("padding", "4px 6px");
+        $a.next().css("display", "block");
+        $figure.appendTo($a.next().next());
+        // $a.text("Hide Content")
+        $('html, body').animate({
+            scrollTop: $a.offset().top
+        }, 1000);
+    } else {
+        $a.attr('value', 'show');
+        $a.next().next().html("");
+        // $a.text("Show Content")
+    }
+
+    $a.next().css("display", "inline");
+}
+</script>
+
+
+<!-- TEXT BUTTON SCRIPT - INJECT -->
+<script type="text/javascript">
+  function showTextPopInject(event) {
+    var $button = $(event.target);
+    var txt = $button.attr("input");
+    console.log(txt);
+    if ($button.attr('value') == 'show') {
+        $button.attr('value', 'hide');
+        $p = $("<p>");
+        $p.html(txt);
+        $button.next().css("display", "block");
+        $p.appendTo($button.next());
+        $button.text("Hide Content")
+    } else {
+        $button.attr('value', 'show');
+        $button.next().html("");
+        $button.text("Show Content")
+    }
+
+}
+</script>
+
+<!-- TEXT BUTTON SCRIPT - HIDDEN / HIDE / SHOW / HIDE/SHOW -->
+<script type="text/javascript">
+  function showTextPopHide(event) {
+    var $button = $(event.target);
+    // var txt = $button.attr("input");
+    var txt = $button.text();
+    if ($button.attr('value') == 'show') {
+        $button.attr('value', 'hide');
+        $button.next().removeAttr("hidden");
+        $button.text(txt + " - Hide Content");
+    } else {
+        $button.attr('value', 'show');
+        $button.next().attr("hidden", "");
+        $button.text(txt.replace(" - Hide Content",""));
+    }
+}
+</script>
+
+<!-- TEXT BUTTON SCRIPT - HIDDEN / HIDE / SHOW / HIDE/SHOW -->
+<script type="text/javascript">
+  function showText_withParent_PopHide(event) {
+    var $button = $(event.target);
+    var $parent = $button.parent();
+    var txt = $button.text();
+    if ($button.attr('value') == 'show') {
+        $button.attr('value', 'hide');
+        $parent.next().removeAttr("hidden");
+        $button.text(txt + " - Hide Content");
+    } else {
+        $button.attr('value', 'show');
+        $parent.next().attr("hidden", "");
+        $button.text(txt.replace(" - Hide Content",""));
+    }
+}
+</script>
+
+<!-- Print / Printing / printme -->
+<!-- <script type="text/javascript">
+i = 0
+
+for (var i = 1; i < 6; i++) {
+    var bodyContents = $(".bodyContents" + i);
+    $("<p>").addClass("TOC1ul")  .appendTo(".TOC1");
+    bodyContents.each(function(index, element) {
+        var paragraph = $(element);
+        $("<li>").html("<a href=#"+paragraph.attr('id')+">"+ paragraph.html().replace(':','')+" </a> ").appendTo(".TOC1ul");
+         });
+} 
+</script>
+ -->
+ 
+</html>
+

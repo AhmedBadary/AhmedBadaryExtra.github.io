@@ -1,0 +1,92 @@
+What is the difference between inductive machine learning and deductive machine learning?
+How will you know which machine learning algorithm to choose for your classification problem?
+Mention the difference between Data Mining and Machine learning?
+What is ‘Overfitting’ in Machine learning?
+Why overfitting happens?
+How can you avoid overfitting?
+Is rotation necessary in PCA? If yes, Why? What will happen if you don’t rotate the components?
+You are given a data set. The data set has missing values which spread along 1 standard deviation from the median. What percentage of data would remain unaffected? Why?
+Why is Naïve Bayes machine learning algorithm naïve?
+How will you explain machine learning in to a layperson?
+What is inductive machine learning?
+What are the different Algorithm techniques in Machine Learning?
+List out some important methods of reducing dimensionality.
+Explain prior probability, likelihood and marginal likelihood in context of naïve Bayes algorithm?
+What are the three stages to build the hypotheses or model in machine learning?
+What is the standard approach to supervised learning?
+What is ‘Training set’ and ‘Test set’?
+List down various approaches for machine learning?
+How to know that your model is suffering from low bias and high variance. Which algorithm should you use to tackle it? Why?
+How is kNN different from kmeans clustering?
+Name some feature extraction techniques used for dimensionality reduction.
+List some use cases where classification machine learning algorithms can be used.
+What kind of problems does regularization solve?
+How much data will you allocate for your training, validation and test sets?
+Which one would you prefer to choose – model accuracy or model performance?
+What is the most frequent metric to assess model accuracy for classification problems?
+Describe some popular machine learning methods.
+What is not Machine Learning?
+Explain what is the function of ‘Unsupervised Learning’?
+When will you use classification over regression?
+How will you differentiate between supervised and unsupervised learning? Give few examples of algorithms for supervised learning?
+Explain the tradeoff between bias and variance in a regression problem.
+What is linear regression? Why is it called linear?
+How does the variance of the error term change with the number of predictors, in OLS?
+Do we always need the intercept term? When do we need it and when do we not?
+How interpretable is the given machine learning model?
+What will you do if training results in very low accuracy?
+Does the developed machine learning model have convergence problems?
+Which tools and environments have you used to train and assess machine learning models?
+How will you apply machine learning to images?
+What is collinearity and what to do with it?
+How to remove multicollinearity?
+What is overfitting a regression model? What are ways to avoid it?
+What is loss function in a Neural Network?
+Explain the difference between MLE and MAP inference.
+What is boosting?
+If the gradient descent does not converge, what could be the problem?
+How will you check for a valid binary search tree?
+How to check if the regression model fits the data well?
+Describe some of the different splitting rules used by different decision tree algorithms.
+
+----
+
+__What is the difference between Supervised and Unsupervised learning?__{: style="color: red"}  
+
+__What is the difference between generative and discriminative model?__{: style="color: red"}  
+
+__What are the different modeling approaches used in density estimation for generative models?__{: style="color: red"}  
+    Implicit Density
+    Explicit Density
+
+__What are the different models used in density estimation for generative models?__{: style="color: red"}  
+
+
+
+__RNN as a Language Model:__{: style="color: red"}  
+    During training time, with tasks like language modeling, an RNN is trained using maximum likelihood to predict the next token in the sequence conditioned on tokens emitted thus far. As a result, if we prime the RNN with some initial tokens, we can continue to unroll the conditional distributions of generating the next token (which makes sense since they multiply out to one giant joint distribution), and we’ve now generated text!
+
+__Language Model__{: style="color: red"}  
+    A Language Model is a statistical model that computes a probability distribution over sequences of words.
+
+__Does RNN model the probability of a sequence of words directly? How about Naive Bayes?__{: style="color: red"}  
+    Yes, No
+
+__What is the vanishing gradient problem?__{: style="color: red"}  
+
+__How to solve it?__{: style="color: red"}  
+
+__How about Gradient Exploding?__{: style="color: red"}  
+    Exploding Gradients:
+        Truncated BPTT
+        Clip gradients at threshold
+        RMSprop to adjust learning rate
+    Vanishing Gradient:
+        Harder to detect
+        Weight initialization
+        ReLu activation functions
+        RMSprop
+        LSTM, GRUs
+
+__What assumption for backprop is broken due to the vanishing/exploding gradient problems?__{: style="color: red"}  
+    The locality assumption of backprop

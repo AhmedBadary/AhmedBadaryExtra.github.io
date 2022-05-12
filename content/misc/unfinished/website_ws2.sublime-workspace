@@ -1,0 +1,700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"Au",
+				"Autoencoder"
+			],
+			[
+				"Auto",
+				"Autoencoders"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "interview_suki.md",
+			"settings":
+			{
+				"buffer_size": 3564,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sols.md",
+			"settings":
+			{
+				"buffer_size": 1109,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "interviews_ml.md",
+			"settings":
+			{
+				"buffer_size": 4552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2.md",
+			"settings":
+			{
+				"buffer_size": 37866,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "interviews.md",
+			"settings":
+			{
+				"buffer_size": 12030,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "1",
+			"settings":
+			{
+				"buffer_size": 25079,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "33",
+			"settings":
+			{
+				"buffer_size": 1165173,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "interview_qs.txt",
+			"settings":
+			{
+				"buffer_size": 5124,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ml_tasks.txt",
+			"settings":
+			{
+				"buffer_size": 1143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "syntax_guide.txt",
+			"settings":
+			{
+				"buffer_size": 792,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/searchme.py",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/boilerplateNotes.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/projects.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/concepts_clean.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/index.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/work.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/hoefding_lec_abumostafa_3",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/hoefding_lec_abumostafa_2",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/hoefding_lec_abumostafa",
+		"/Users/ahmadbadary/git/ML/untitled/og/originaltrain.csv",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/stats_prob/prob.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/learning_summary.md",
+		"/Users/ahmadbadary/p_git/fin_ml/helpers/ie_utils.py",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/Course_BoilerPlate.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/test.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/investing.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/* **Mishcon:**{: style=\"color: SteelBlue\"}",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/mpt.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/temp_1.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/temp_2.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/concepts.md",
+		"/Users/ahmadbadary/p_git/fin_ml/helpers/temp_3.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/optimization/2/2.3.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/archt/pgm.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/pages/work/research/dl/concepts/concepts.md",
+		"/Users/ahmadbadary/Downloads/temp_3",
+		"/Users/ahmadbadary/Desktop/deep_trade/ws_buys_sells.txt",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/untitled.md",
+		"/Users/ahmadbadary/Desktop/ping/ng_v1_templates.txt",
+		"/Users/ahmadbadary/Desktop/ng_v1_templates.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/regularization.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/ans2.md",
+		"/Users/ahmadbadary/p_git/fin_ml/tensorflow/configure.py",
+		"/Users/ahmadbadary/p_git/fin_ml/tensorflow/configure",
+		"/Users/ahmadbadary/p_git/fin_ml/tensorflow/configure.cmd",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/select_topic.py",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/ml_research.md",
+		"/Users/ahmadbadary/Desktop/est.sh",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/ml/1/1.2.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/questions_today.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/answers_today.md",
+		"/Users/ahmadbadary/p_git/fin_ml/sentdex/alg_trading/SP500_component_stocks.csv",
+		"/Users/ahmadbadary/p_git/fin_ml/sentdex/alg_trading/SP500_changes.csv",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/answers.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/questions.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/archt/auto_encdr.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/practical/practical_concepts.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/concepts/data_proc.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/rl.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/ping_roadmap.md",
+		"/Users/ahmadbadary/p_git/fin_ml/sentdex/cryptocurrency_w:RNNs/Cryptocurrency-predicting_RNN_Model.py",
+		"/Users/ahmadbadary/p_git/fin_ml/SirjRav/lstm_stock_prediction/GOOGLE stock prediction.ipynb",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/ping_short.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Gemfile.lock",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Gemfile",
+		"/Applications/Python 3.7/Install Certificates.command"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "interview_suki.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sols.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "interviews_ml.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "2.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24899,
+								24899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8223.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "interviews.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "1",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11059.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "33",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1165173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46043,
+								46043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 267493.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "interview_qs.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "ml_tasks.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "syntax_guide.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lern_pr",
+				"dl/theory/learning_problem_caltech.md"
+			],
+			[
+				"le",
+				"dl/theory/learning_summary.md"
+			],
+			[
+				"2/2.3.",
+				"optimization/2/2.3.md"
+			],
+			[
+				"pgm",
+				"dl/archt/pgm.md"
+			],
+			[
+				"inve",
+				"finance/investing.md"
+			],
+			[
+				"inv",
+				"finance/investing.md"
+			],
+			[
+				"reg",
+				"dl/theory/regularization.md"
+			],
+			[
+				"ans",
+				"ans2.md"
+			],
+			[
+				"regul",
+				"dl/theory/regularization.md"
+			],
+			[
+				"toda",
+				"questions_today.md"
+			],
+			[
+				"sele",
+				"select_topic.py"
+			],
+			[
+				"data",
+				"dl/concepts/data_proc.md"
+			],
+			[
+				"practical",
+				"dl/practical/practical_concepts.md"
+			],
+			[
+				"ping",
+				"~/p_git/AhmedBadary.github.io/content/ping_roadmap.md"
+			],
+			[
+				"rl",
+				"rl.md"
+			],
+			[
+				"ml re",
+				"dl/ml_research.md"
+			],
+			[
+				"in",
+				"finance/investing.md"
+			],
+			[
+				"ques",
+				"questions_today.md"
+			],
+			[
+				"ae",
+				"dl/archt/auto_encdr.md"
+			],
+			[
+				"answe",
+				"answers.md"
+			],
+			[
+				"conce",
+				"dl/practical/practical_concepts.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

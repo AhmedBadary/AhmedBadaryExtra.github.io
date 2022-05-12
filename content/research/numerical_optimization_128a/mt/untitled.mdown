@@ -1,0 +1,55 @@
+---
+layout: editable
+permalink: /work_files/school/128a/mt/practice12
+---
+
+**1.3/**{: style="font-size: 250%; color: red; font: italic bold 50px/70px Georgia, serif"}  
+
+____________________
+***
+
+## Main Idea
+{: #content1}
+
+1. **Algorithm:**{: style="color: SteelBlue  "}{: .bodyContents1 #bodyContents11}
+    :   An **Algorithm** is a procedure that describes, in an
+        unambiguous manner, a finite sequence of steps to be performed in a specified order
+
+***
+
+## Characterizing Algorithms
+{: #content2}
+
+1. **Stability:**{: style="color: SteelBlue  "}{: .bodyContents2 #bodyContents21} \\
+    * **Stable Algorithm:** 
+    <br>
+    <br>
+    * **Conditionally Stable Algorithm:**
+    <br>
+    <br>
+2. **Error Growth:**{: style="color: SteelBlue  "}{: .bodyContents2 #bodyContents22} \\
+    <xmp>
+
+    </xmp>
+3. **Stability and Error-Growth:**{: style="color: SteelBlue  "}{: .bodyContents2 #bodyContents23} \\
+    * **Stable Algorithm:**  
+    * **UnStable Algorithm:** 
+
+***
+
+## Rates of Convergence
+{: #content3}
+
+1. **Rate of Convergence:**{: style="color: SteelBlue  "}{: .bodyContents3 #bodyContents31} \\
+    <xmp>
+
+    </xmp>
+    > $$\beta_n \  = \ \ \ \ \ \ \ \ \ \ \ \  , \ \ \ \ $$ for 
+
+2. **Big-Oh Notation:**{: style="color: SteelBlue  "}{: .bodyContents3 #bodyContents32} \\
+    ![formula](/main_files/128a/1/1.3/3.png){: width="87%"}  
+
+3. **Example [determining rate of convergence]:**{: style="color: SteelBlue  "}{: .bodyContents3 #bodyContents33} \\
+    <button>Show Derivation</button>{: .showText value="show"
+     onclick="showTextPopHide(event);"}
+    ![formula](/main_files/128a/1/1.3/4.png){: width="77%" hidden=""}  

@@ -1,0 +1,181 @@
+.borderexample {
+ border-style:solid;
+ border-color:#287EC7;
+}
+
+.tab {
+    margin-left: 20px;
+}
+.popup_website_container {
+    width: 780px;
+    height: 400px;
+    /*UNCOMMENT for DOTTED Border*/
+/*    border-top: #87CEFA 4px dotted;
+    border-right: #87CEFA 4px dotted;
+    border-left: #87CEFA 4px dotted;
+    border-bottom: #87CEFA 4px dotted;*/
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  /*border-color: #87CEFA;*/
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
+  /*UNCOMMENT 5 Lines below TO ROTATE*/
+  /*-moz-transform:rotate(20deg);*/
+  /*-webkit-transform:rotate(20deg);*/
+  /*-o-transform:rotate(20deg);*/
+  /*-ms-transform:rotate(20deg);*/
+  /*filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);*/
+}
+
+.showText {
+    border-radius: 12px;
+    background-color: #87CEFA; /* Green */ /* AMAZING BLUE COLOR #87CEFA; */
+    border: none;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.video_container {
+    display: inline;
+    position: relative;
+}
+
+.video_buttons {
+    border-radius: 12px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#quickAccess {
+    border-radius: 12px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#quickAccess:hover {
+    color: #4CAF50;
+    font-size: 1px;
+}
+
+#quickAccess:hover:after {
+    content: "128a";
+    color: white;
+    font-size: 16px;
+    padding: 6px 4px;
+    padding-right: 14px;
+}
+
+
+.blue {
+    color: blue;
+}
+
+.footnotes {
+    font-size: 10px;
+}
+
+.TOC {
+    font-size: 15px;
+    margin: 0 0 0 0;
+
+}
+.TOC1,
+.TOC2,
+.TOC3,
+.TOC4,
+.TOC5,
+.TOC6,
+.TOC7,
+.TOC8,
+.TOC9,
+.TOC10,
+.TOC11 {
+    font-size: 18px;
+}
+.TOC1ul,
+.TOC2ul,
+.TOC3ul,
+.TOC4ul,
+.TOC5ul,
+.TOC6ul,
+.TOC7ul,
+.TOC8ul,
+.TOC9ul,
+.TOC10ul,
+.TOC11ul {
+    font-size: 15px;
+}
+
+.TOC {
+  background: #eee;
+  font-size: 0.8em;
+  padding: 1em 2em;
+  margin: 0 0 0.5em 0.5em;
+  /*height: 00px;*/
+  width: 
+}
+.TOC a {
+    padding: 0 0 0 0;
+}
+.TOC ul {
+  margin-bottom: 0px;
+}
+.TOC li {
+  height: 25px;
+  /*line-height: 36px;*/
+}
+.TOC h1 {
+  margin-bottom: 0px;
+}
+
+
+.center-image
+{
+  margin: 0 auto;
+  display: block;
+}
+
+#lst-p { 
+  margin-bottom: 0em;
+}
+
+/* TO MAKE TABLE OF CONTENTS FLOAT ON THE LEFT SIDE*/
+/*.TOC {
+  float: left;
+  width: 40%;
+  left: 0px;
+  position: relative;
+  }
+.TOC li {
+  margin: 0 0 0.25em 0;
+}
+.TOC a {
+  text-decoration: none;
+}
+.TOC a:hover,
+.TOC a:active {
+  text-decoration: underline;
+}*/

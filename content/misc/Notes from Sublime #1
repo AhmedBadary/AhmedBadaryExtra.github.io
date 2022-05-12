@@ -1,0 +1,74 @@
+Stock movement prediction is a challenging problem: 
+* high market stochasticity: the market is highly __stochastic__ (random) 
+* temporally-dependent prediction: and we make __temporally-dependent__ predictions 
+* chaotic market information: from __chaotic__ data.  
+
+
+
+* Ensemble Forecasting (weather)
+* Group Method of Data Handling for TimeSeries Forecasting
+    * [Paper](file:///Users/ahmadbadary/Downloads/ForecastingtheREITsandstockindicesGroupMethodofDataHandlingNeuralNetworkapproach1.pdf)  
+    * [Wiki](https://en.wikipedia.org/wiki/Group_method_of_data_handling)  
+    * [Group Method of Data Handling in Python (github)](https://github.com/kvoyager/GmdhPy)  
+    * [GMDH Review Microsoft Research (Paper)](https://gmdhsoftware.com/GMDH_%20Anastasakis_and_Mort_2001.pdf)  
+* ARIMA Methods for TimeSeries Forecasting
+* [Probabilistic Forecasting (wiki)](https://en.wikipedia.org/wiki/Probabilistic_forecasting)  
+* 
+* Successful Paper: [Predicting Stock Prices Using LSTM (paper)](https://www.researchgate.net/publication/327967988_Predicting_Stock_Prices_Using_LSTM)  
+
+
+---
+* [SimFin Tutorial 04 - Signals (git)](https://github.com/SimFin/simfin-tutorials/blob/master/04_Signals.ipynb)  
+* [SimFin Tutorial 01 - Basics: Download Data (git)](https://github.com/SimFin/simfin-tutorials/blob/master/01_Basics.ipynb)  
+* [Deep Trading (git)](https://github.com/Rachnog/Deep-Trading)  
+
+
+---
+https://api.usfundamentals.com/v1/indicators/xbrl?indicators=Goodwill,NetIncomeLoss&companies=320193,1418091&token=your_access_token
+Assets,AssetsCurrent,CashAndCashEquivalentsAtCarryingValue,Liabilities,LiabilitiesCurrent,NetCashProvidedByUsedInFinancingActivities (yearly only),NetCashProvidedByUsedInInvestingActivities (yearly only),NetCashProvidedByUsedInOperatingActivities (yearly only),OperatingIncomeLoss,PropertyPlantAndEquipmentNet,Revenues
+
+
+---
+```python
+def build_model(layers):
+#     d = 0.2
+    inputs = keras.layers.Input(shape=(None, 6))
+    x = keras.layers.Conv1D(128, 6, activation='relu')(inputs)
+#     x = keras.layers.Conv1D(32, 4, activation='relu')(x)
+#     x = keras.layers.GlobalMaxPool1D()(x)
+    x = keras.layers.LSTM(32, return_sequences=False)(x)
+    x = Dense(16,init='uniform',activation='relu')(x)
+    outputs = Dense(layers[2],init='uniform', activation='relu')(x)
+    return keras.models.Model(inputs=inputs, outputs=outputs)
+```
+
+
+---
+np.array([[[32, 2],[41, 2],[39, 2],[20, 2],[15, 2], [15, 2]],
+          [[35, 2],[32, 2],[41, 2],[39, 2],[20, 2], [20, 2]],
+          [[32, 2],[41, 2],[39, 2],[20, 2],[15, 2], [15, 2]],
+          [[35, 2],[32, 2],[41, 2],[39, 2],[20, 2], [20, 2]],
+          [[35, 2],[32, 2],[41, 2],[39, 2],[20, 2], [20, 2]],
+         ])
+
+(#Inputs, Time-Steps, #Features/step)
+(#Inputs, #days, #Features/day)
+
+
+---
+d(m1, y) > d(m2, y)  -->  m1 < m2
+F: R^n --> R
+1. d(x,y) = 0  <--> x==y
+2. d(x,y) > d(x,z) + d(z,y)
+3. d(x,y) = d(y,x)
+
+
+---
+Solution to Dating:
+    * Problem: Everybody gets access to everybody, thus, girls get a lot of attention because they are aware that there exists a very very large number of potential mates.
+    * Solution: Restrict the access of people to a specific group of people to simulate what happens in Real-Life (bar). Now, X (e.g. 15) guys get to rank a sub-group of girls and the pool becomes more balanced.
+
+
+---
+Score (loss):  0.00015542263891664198
+Score (loss):  0.0004150167806074023

@@ -1,0 +1,35 @@
+<!-- FUNCTIONAL TABLE TO CONTENT CODE -->
+<script type="text/javascript">
+    var ToC =
+  "<nav role='navigation' class='TOC'>" +
+    "<h2>Table of Contents:</h2>" +
+    "<ul>";
+
+var newLine, el, title, link;
+
+$("h2").each(function() {
+
+  el = $(this);
+  title = el.text();
+  link = "#" + el.attr("id");
+  console.log(el.attr("id"))
+  if (el.attr("id") != undefined) {
+      newLine =
+        "<li>" +
+          "<a href='" + link + "'>" +
+            title +
+          "</a>" +
+        "</li>";
+
+      ToC += newLine;
+
+  }
+
+});
+
+ToC +=
+   "</ul>" +
+  "</nav>";
+
+$("#content1").prepend(ToC);
+</script>

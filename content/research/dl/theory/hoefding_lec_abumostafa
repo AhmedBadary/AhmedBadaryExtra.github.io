@@ -1,0 +1,162 @@
+- Consider the following situation.
+    You have a bin, and the bin has marbles.
+    The marbles are either red or green.
+    we are going to do an experiment with this bin.  The experiment is to pick a sample from the bin--some marbles.
+    * Let's formalize what the probability distribution is: 
+        - mu is the probability of picking a red marble.
+        - (1-mu)
+    * The bin is really just a visual aid to make us relate to the experiment.
+        You can think of this abstractly as a binary experiment--two outcomes, red or green.
+        If you want to stick to the bin, you can say the bin has an infinite number of marbles and the fraction of red marbles is mu. Or maybe it has a finite number of marbles, and you are going to pick the marbles, but replace them.
+    * Now, the value of mu is UNKNOWN to us. (hint hint)
+    * We pick N marbles independently.
+    * The fraction of red marbles in sample = nu.
+
+    * Does nu, which is the sample frequency, tell us anything about mu, which is the actual frequency in the bin that we are interested in knowing?
+        - Short Answer: NO.
+            Because, Sample can be mostly green while bin is mostly red.  You don't know anything about the marbles you did not pick.  
+        - Long Answer: Yes.
+            Because if you know a little bit about probability, you realize that if the sample is big enough, the sample frequency, which is nu-- the mysterious disappearing quantity here-- that is likely to be close to mu.
+            Think of a presidential poll.
+            There are maybe 100 million or more voters in the US, and you make a poll
+            of 3000 people.
+            You have 3000 marbles, so to speak.
+            And you look at the result in the marbles, and you tell me how the 100 million will vote.
+            How the heck did you know that?
+            So now the statistics come in.
+            That's where the probability plays a role.
+        - And the main distinction between the two answers is POSSIBLE VERSUS PROBABLE.  
+            In science and in engineering, you go a huge distance by settling for not absolutely certain, but almost certain. It opens a world of possibilities, and this is one of the possibilities that it opens.
+    * So now we know that, from a probabilistic point of view, nu does tell me something about mu. 
+        i.e. The sample frequency tells me something about the bin.
+    * So what does it exactly say? (Now we go into a mathematical formulation.)  
+        In words, it says: in a big sample, nu, the sample frequency, should be close to mu, the bin frequency.
+        So now, the symbols that go with that-- what is a big sample?
+        Large N, our parameter N.
+        And how do we say that nu is close to mu?
+        We say that they are within epsilon. (that is our critireon)
+    * Very important formula that we will reuse over and over
+        * Hoefding Ineq
+        * nu does not approximate mu well (not within eps of each other): how small can we guarantee that probability? 
+            - Good News: 
+                It's e to the minus N. It's a negative exponential. That is great, because negative exponentials tend to die very fast. So if you get a bigger sample, this will be diminishingly small probability. So the probability of something bad happening will be very small, and we can claims that, indeed, nu will be within epsilon from mu, and we will be wrong for a very minute amount of the time.  
+            - Bad News: 
+                Epsilon is our tolerance.
+                If you're a very tolerant person, you say:
+                I just want nu and mu to be within, let's say, 0.1.
+                That's not very much to ask.
+                Now, the price you pay for that is that you plug in the exponent
+                not epsilon, but epsilon squared.
+                So that becomes 0.01.
+                0.01 will dampen N significantly, and you lose a lot of the benefit of the
+                negative exponential.
+                And if you are more stringent and you say, I really want nu
+                to be close to mu.
+                I am not fooling around here.
+                So I am going to pick epsilon to be 10 to the minus 6.
+                Good for you.
+                10 to the minus 6?
+                Pay the price for it.
+                You go here, and now that's 10 to the minus 12.
+                That will completely kill any N you will ever encounter.
+                So the exponent now will be around zero.
+                So this probability will be around 1, if that was the final answer.
+                That's not yet the final answer.
+                So now, you know that the probability is less than or equal to 1.
+                Congratulations!
+                You knew that already. [LAUGHTER]
+        - This is Hoefdings Inequality: (belongs to laws of large numbers)
+            This reduces to the statement that “ μ = ν ” is PAC (PAC: Probably, Approximately Correct).
+        (not asymptotic and has an exponential in it - very friendly)
+        (I don't know mu)
+        (only random fellow is nu - mu is constant)
+        Therefore, instead of saying that nu tends to be close to mu, which will be the accurate logical statement-- mu is there, and nu has a tendency to be close to it. We, instead of that, say that I know already nu, and now mu tends to be close to nu. That's the logic we are using.  
+- Relating to Learning:
+    - In the case of a bin, the unknown quantity that we want to decipher is a number, mu. Just unknown. What is the frequency inside the bin.  
+    - In Learning, the unknown is a full-fledged function. with a domain and target that can be literally anything (any order; e.g. euclidean, binary etc).  
+        How am I going to relate the simplistic example to the unknown quantity 
+    - Now the bin has all the points in the space. Therefore, this is really the space.
+        That's the correspondence in our mind.
+        Now we would like to give colors to the marbles.
+        So here are the colors. What do they correspond to?
+        - Green marbles correspond to your hypothesis getting it right.
+        So what does that mean?
+        There is a target function sitting there, right?
+        You have a hypothesis.
+        The hypothesis is a full function, like the target function is.
+        You can compare the hypothesis to the target function on every point.
+        And they either agree or disagree.
+        If they agree, please color the corresponding point in the input space--Color it green.
+        Now, I'm not saying that you know which ones are green and which ones are not, because you don't know the target function overall.
+        I'm just telling you the mapping that takes an unknown target function into an unknown mu.
+        So both of them are unknown, admittedly, but that's the correspondence that maps it.
+        - You color the thing RED if your hypothesis got the answer wrong.
+        - So now I am collapsing the entire thing into just agreement and disagreement between your hypothesis and the target function, and that's how you get to color the bin.
+    - Now, this will add a component to the learning problem that we did not have before.
+        There is a probability associated with the bin.  There is a probability of picking a marble, etc.
+        So let's see what is the addition we need to do in order to adjust the statement of the learning problem to accommodate the new ingredient. And the new ingredient is important, because otherwise we cannot learn. It's not like we have the luxury of doing without it. 
+    - In the bin analogy, this is the INPUT SPACE.
+        Now the INPUT SPACE has a probability.
+        So I need to apply this probability to the points from the INPUT SPACE that are being generated.
+        I am going to introduce a PROBABILITY DISTRIBUTION OVER the INPUT SPACE.
+        Now the points in the input space-- let's say the d-dimensional Euclidean space-- are not just generic points now.
+        There is a probability of picking one point versus the other.
+        And that is captured by the probability, which I'm going to call capital P.
+    - Now the interesting thing is that I'm making no assumptions about P. P can be anything.
+        I just want a probability.
+        So invoke any probability you want, and I am ready with the machinery.
+        1. I am not going to restrict the probability distributions over X. That's number one.
+            So this is not as bad as it looks.
+        2. (Number two) I don't even need to know what P is.
+            Of course, the probability choice will affect the choice of the probability of getting a green marble or a red marble, because now the probability of different marbles changed, so it could change the value mu.
+            But the good news with the Hoeffding is that I could bound the performance independently of mu.
+            So I can get away with not only any P, but with a P that I don't know, and I'll still be able to make the mathematical statement.
+            So this is a very benign addition to the problem. And it will give us very high dividends, which is the FEASIBILITY OF LEARNING.
+        - New Assumption:
+            So what do you do with the probability?
+            You use the probability to generate the points x_1 up to x_N.  So now x_1 up to x_N are assumed to be generated by that probability, independently.
+- Are we done?
+    Well, not quite.
+    Why are we not done?
+    Because the analogy I gave you requires a particular hypothesis in mind.
+    I told you that the red and green marbles correspond to the agreement between h and the target function.
+    So WHEN YOU TELL ME WHAT H IS, you DICTATE THE COLORS here.  All of these colors.
+    This is green NOT BECAUSE IT'S INHERENTLY GREEN, not because of anything inherent about the target function.
+    It's because of the agreement between the target function and your hypothesis, h.
+
+    That's fine, but what is the problem?
+    The problem is that I know that for this h, nu generalizes to mu.
+    You're probably saying, yeah, but h could be anything.  I don't see the problem yet.
+    Now here is the problem: What we have actually discussed is not learning, it's VERIFICATION.
+    
+    The situation as I describe it:
+    you have a single bin and you have red and green marbles, and this and that, corresponds to the following.
+    Ryan comes to my office.
+    We would like a formula for matter categorization.
+    And we have data.
+    So instead of actually taking the data, and searching hypotheses, and picking one, like the perceptron learning algorithm, here is what I do that corresponds to what I just described: 
+    I decide to go with a linear formula.  I guess the date of creation is important, so I will give that a weight of 2.  The matter_code is probably also important, so if I see it anywhere i'll give it a weight of 3; the client_code is prob less imp, so giving it 1.5.  Let's pick a high threshold to avoid false+ve s. Let's choose 0.7
+    Essentially, Sitting down, improvising an h.
+    Now, after I fix the h, I ask you for the data and just verify whether the h I picked is good or bad.
+    That I can do with the bin, because I'm going to look at the data.
+    If I miraculously agree with everything in your data, I can definitely declare victory by Hoeffding.
+    But what are the chances that this will happen in the first place?
+    I have no control over whether I will be good on the data or not.
+    The whole idea of learning is that I'm searching the space to deliberately find a hypothesis that works well on the data.
+    In this case, I just dictated a hypothesis.
+    And I was able to tell you for sure what happens out-of-sample.
+    But I have no control of what news I'm going to tell you.
+    You can come to my office. I improvise this h. I go to the data. And I tell you, I have a fantastic system!
+    It GENERALIZES PERFECTLY, and it DOES A TERRIBLE JOB.  
+    That's what I have, because when I tested it, nu was terrible.
+
+    What we are looking for is to make it learning. So how do we do that?
+    1. No guarantee that nu will be small.
+    2. And we need to choose the hypothesis from multiple h's.
+    Sol:
+    And in this case, you are going to go for the sample, so to speak, generated by every hypothesis, and then you pick the hypothesis that is most favorable, that gives you the least error. (i.e. look at the marbles that you picked from the bin - by taking every hypothesis you come up with and checking it against the data points and coloring the marbles accordingly; then choose the one with the highest nu.)
+    So now, that doesn't look like a difficult thing. It worked with one bin. Maybe I can have more than one bin, to accommodate the situation where I have more than one hypothesis.
+
+
+    Now before u start cussing..
+    Hoeffding doesnt apply to multiple bins 

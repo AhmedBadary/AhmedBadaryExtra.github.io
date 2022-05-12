@@ -1,0 +1,1494 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"a_mins"
+			],
+			[
+				"tra",
+				"transactions"
+			],
+			[
+				"tr",
+				"transactions"
+			],
+			[
+				"tran",
+				"transaction"
+			],
+			[
+				"an",
+				"answer"
+			],
+			[
+				"cus",
+				"customer"
+			],
+			[
+				"cusome",
+				"customers"
+			],
+			[
+				"c",
+				"customers"
+			],
+			[
+				"get",
+				"get_time"
+			],
+			[
+				"el",
+				"elem"
+			],
+			[
+				"min",
+				"minutes1"
+			],
+			[
+				"hou",
+				"hours1"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"PC",
+				"PC_theta_2s"
+			],
+			[
+				"ex",
+				"exact_theta_2s"
+			],
+			[
+				"RK",
+				"RK4_sols"
+			],
+			[
+				"R",
+				"RK_vals"
+			],
+			[
+				"F",
+				"F"
+			],
+			[
+				"num",
+				"num_deriv_back"
+			],
+			[
+				"sim",
+				"simpson"
+			],
+			[
+				"co",
+				"coeff"
+			],
+			[
+				"siz",
+				"size1"
+			],
+			[
+				"si",
+				"size1"
+			],
+			[
+				"new",
+				"new_img"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"app",
+				"appendTo"
+			],
+			[
+				"tes",
+				"test_newtonbisection"
+			],
+			[
+				"N",
+				"NewtonBisection"
+			],
+			[
+				"x0",
+				"x0_vals"
+			],
+			[
+				"t",
+				"tagline"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"com",
+				"completeUrl"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"bod",
+				"bodyContents"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"Ahmad",
+				"AhmadBadary"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"ahmed",
+				"ahmedbadary"
+			],
+			[
+				"in",
+				"inputText1"
+			],
+			[
+				"te",
+				"textDiv"
+			],
+			[
+				"cre",
+				"createElement"
+			],
+			[
+				"inp",
+				"inputText"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"tcX",
+				"tcX"
+			],
+			[
+				"DOC",
+				"document"
+			],
+			[
+				"_",
+				"_person"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"kna",
+				"knapsack"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"p",
+				"powerset"
+			],
+			[
+				"so",
+				"sols"
+			],
+			[
+				"se",
+				"set_inc_clss"
+			],
+			[
+				"tot",
+				"tot_cost"
+			],
+			[
+				"sols",
+				"sols"
+			],
+			[
+				"sor",
+				"sorted"
+			],
+			[
+				"ran",
+				"randint"
+			],
+			[
+				"to_",
+				"tot_value"
+			],
+			[
+				"sort",
+				"sorted_lsts"
+			],
+			[
+				"ls",
+				"lst4"
+			],
+			[
+				"bes",
+				"best_in_feature"
+			],
+			[
+				"split",
+				"split_val"
+			],
+			[
+				"__",
+				"__xs"
+			],
+			[
+				"ent",
+				"entropy"
+			],
+			[
+				"nu",
+				"num_features"
+			],
+			[
+				"spl",
+				"split_val"
+			],
+			[
+				"ty",
+				"_type"
+			],
+			[
+				"ru",
+				"rule_f"
+			],
+			[
+				"split_",
+				"split_rule"
+			],
+			[
+				"s",
+				"split"
+			],
+			[
+				"be",
+				"best_in_feature"
+			],
+			[
+				"H",
+				"H_Sr"
+			],
+			[
+				"Sr",
+				"Sr"
+			],
+			[
+				"fib",
+				"fib_arr"
+			],
+			[
+				"fi",
+				"fib_arr"
+			],
+			[
+				"MA",
+				"MaQ"
+			],
+			[
+				"Ma",
+				"MaQ"
+			],
+			[
+				"G",
+				"_G"
+			],
+			[
+				"V",
+				"V_Weight"
+			],
+			[
+				"all",
+				"all_sublocks"
+			],
+			[
+				"rdd",
+				"rdd"
+			],
+			[
+				"l",
+				"list2"
+			],
+			[
+				"lis",
+				"list1"
+			],
+			[
+				"blo",
+				"block2"
+			],
+			[
+				"lev",
+				"level2"
+			],
+			[
+				"bl",
+				"block1"
+			],
+			[
+				"image",
+				"image_id"
+			],
+			[
+				"ima",
+				"image_i_j"
+			],
+			[
+				"Cb",
+				"cb"
+			],
+			[
+				"su",
+				"sumss"
+			],
+			[
+				"ri",
+				"rights"
+			],
+			[
+				"le",
+				"lefts"
+			],
+			[
+				"bo",
+				"boxX"
+			],
+			[
+				"T",
+				"True"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"no",
+				"no-repeats"
+			],
+			[
+				"des",
+				"destination_place"
+			],
+			[
+				"cons",
+				"consequent"
+			],
+			[
+				"pop",
+				"popularity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Complete the function below.\n\n\ndef  getMinTimeDifference( times):\n    alll, min_t, max_t, total = [], 1440, 0, 1440\n    all_times = [None]*(total + 1)\n    for i in range(len(times)):\n        all_minutes = int(times[i].split(\":\")[0]) * 60 + int(times[i].split(\":\")[1])\n        if all_times[all_minutes]:\n            return 0\n        all_times[all_minutes] = True\n        min_t = all_minutes if all_minutes < min_t else min_t\n        max_t = all_minutes if all_minutes > max_t else max_t\n    sol, p_ind, ind = min(max_t - min_t, min_t - max_t + total), min_t, min_t+1\n    while (ind <= max_t):\n        if (all_times[ind]):\n            sol = ind - p_ind if ind - p_ind < sol else sol\n            p_ind = ind\n        ind += 1\n    return sol\n    \n    \ndef time_diff(a, b):\n    a_mins = int(a.split(\":\")[0])*60 + int(a.split(\":\")[1])\n    print(a_mins)\n    b_mins = int(b.split(\":\")[0])*60 + int(b.split(\":\")[1])\n    print(b_mins)\n    return min(abs(a_mins - b_mins), abs((1440 - a_mins) - b_mins)) if a_mins > b_mins else min(abs(a_mins + b_mins), abs((1440 - b_mins) + a_mins))\n   \n    \n    \n\n    \ndef argmin(arr):\n    _min, ind = sys.maxsize, 0\n    for i in range(len(arr)):\n        if arr[i] < _min:\n            _min, ind = arr[i], i\n    return ind",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Unix",
+				"name": "# Complete the function below."
+			}
+		},
+		{
+			"contents": "def solution(data_input):\n    total = 1440\n    all_times = [None]*(total + 1) # true of a give time (converted into minutes) exsits\n    min_t, max_t = total, 0 # lower and upper bound of time array\n    for i in range(len(data_input)):\n        all_minutes = int(data_input[i][0:2]) * 60 + int(data_input[i][3:5]) # convert time string into minutes\n        # time already exsited, so difference is automatically 0\n        if all_times[all_minutes]:\n            return 0\n        all_times[all_minutes] = True\n        min_t = all_minutes if all_minutes < min_t else min_t\n        max_t = all_minutes if all_minutes > max_t else max_t\n        i+=1\n    # initialize the result based on min_t and max_t\n    sol = min(max_t - min_t, min_t - max_t + total)\n    # previous exist minute\n    p_ind = min_t\n    # moving index to check if all_times[index] is true\n    index = min_t + 1\n    while (index <= max_t):\n        if (all_times[index]):\n            sol = index - p_ind if index - p_ind < sol else sol # update reult\n            p_ind = index # update previous\n        index += 1\n    return sol",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import numpy as np\n\ndata_input = ['24:59','02:00']\n\ndef solution(data_input):\n    differences = []\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]),int(inp.split(\":\")[1])] for inp in data_input]\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: x[0])\n    # 3\n    new_arr = sorted(new_arr, key = lambda x: x[1])\n    # 4\n    for i in range(len(new_arr)):\n        differences.append(abs(new_arr[i-1] - new_arr[i]))\n\n    return np.argmax(np.array(differences))\n    \n\n\n",
+			"settings":
+			{
+				"buffer_size": 466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# Complete the function below.\n\n\ndef  getMinTimeDifference( times):\n    # if distinct\n    if len(times) >= 24*60:\n        return 0\n    differences = []\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]), int(inp.split(\":\")[1])] for inp in times]\n    indices = sorted(range(len(new_arr)), key=lambda k: (new_arr[k][0],new_arr[k][1]))\n    # print(\"(1) new_arr: \", new_arr)\n\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: (x[0], x[1]))\n    # print(\"(2) new_arr: \", new_arr)\n\n    # 3\n    for i in range(1,len(new_arr)):\n        new_arr[i][0] = 0 if new_arr[i][0] == 24 and new_arr[i][1] == 0 else new_arr[i][0]\n        \n        new_arr[i][0] = new_arr[i][0] + 24 if new_arr[i][0] < 12 and abs(new_arr[i][0] - new_arr[i-1][0]) >= 12 else new_arr[i][0]\n        new_arr[i-1][0] = new_arr[i-1][0] + 24 if new_arr[i-1][0] < 12 and abs(new_arr[i][0] - new_arr[i-1][0]) >= 12 else new_arr[i-1][0]\n        # print(\"hours1: \", new_arr[i][0] - new_arr[i-1][0])\n        # print(\"minutes1: \", new_arr[i][1] - new_arr[i-1][1])\n        # print(\"hours2: \", new_arr[i-1][0] - new_arr[i][0])\n        # print(\"minutes2: \", new_arr[i-1][1] - new_arr[i][1])\n        hours1, hours2 = abs(new_arr[i][0] - new_arr[i-1][0])*60, abs(new_arr[i-1][0] - new_arr[i][0])*60\n        minutes1, minutes2 = new_arr[i][1] - new_arr[i-1][1], new_arr[i-1][1] - new_arr[i][1] # Use ABS? abs?\n        differences.append(min((hours1+minutes1), (hours2 + minutes2)))\n\n    new_arr[-1][0] = new_arr[-1][0] + 24 if new_arr[-1][0] < 12 and abs(new_arr[-1][0] - new_arr[0][0]) >= 12  else new_arr[-1][0]\n    new_arr[0][0] = new_arr[0][0] + 24 if new_arr[0][0] < 12 and abs(new_arr[-1][0] - new_arr[0][0]) >= 12 else new_arr[0][0]\n    hours1, hours2 = abs(new_arr[-1][0] - new_arr[0][0])*60, abs(new_arr[0][0] - new_arr[-1][0])*60\n    minutes1, minutes2 = new_arr[-1][1] - new_arr[0][1], new_arr[0][1] - new_arr[-1][1] # Use ABS? abs?\n    differences.append(min((hours1+minutes1), (hours2 + minutes2)))\n    ind1, ind2 = indices[argmin(differences)], indices[(argmin(differences)+1)% len(new_arr)]\n\n    return differences[argmin(differences)]      \n               \n    \n    \n    \n\n    \ndef argmin(arr):\n    _min, ind = sys.maxsize, 0\n    for i in range(len(arr)):\n        if arr[i] < _min:\n            _min, ind = arr[i], i\n    return ind",
+			"settings":
+			{
+				"buffer_size": 2289,
+				"line_ending": "Unix",
+				"name": "# Complete the function below."
+			}
+		},
+		{
+			"contents": "test.py\n\"Modified to return array of [indices,differences]\"\nimport numpy as np\n\ndata_input = ['02:00','13:11','21:19','10:00','12:22','11:11','07:27','09:32']\n# data_input = [\"23:59\",\"00:10\",\"02:00\",\"13:11\",\"21:19\",\"10:00\",\"12:22\",\"11:11\",\"07:27\",\"09:32\"]\n\ndef solution(data_input):\n    # if distinct\n    if len(data_input) >= 24*60:\n        return 0\n    differences = []\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]), int(inp.split(\":\")[1])] for inp in data_input]\n    indices = sorted(range(len(new_arr)), key=lambda k: (new_arr[k][0],new_arr[k][1]))\n    print(\"indices: \", indices)\n    # print(\"(1) new_arr: \", new_arr)\n\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: (x[0], x[1]))\n    # print(\"(2) new_arr: \", new_arr)\n\n    # 3\n    for i in range(1,len(new_arr)):\n        new_arr[i][0] = new_arr[i][0] + 24 if new_arr[i][0] < 12 and abs(new_arr[i][0] - new_arr[i-1][0]) >= 12 else new_arr[i][0]\n        new_arr[i-1][0] = new_arr[i-1][0] + 24 if new_arr[i-1][0] < 12 and abs(new_arr[i][0] - new_arr[i-1][0]) >= 12 else new_arr[i-1][0]\n        hours1, hours2 = abs(new_arr[i][0] - new_arr[i-1][0])*60, abs(new_arr[i-1][0] - new_arr[i][0])*60\n        minutes1, minutes2 = new_arr[i][1] - new_arr[i-1][1], new_arr[i-1][1] - new_arr[i][1] # Use ABS? abs?\n        differences.append(min((hours1+minutes1), (hours2 + minutes2)))\n\n    new_arr[-1][0] = new_arr[-1][0] + 24 if new_arr[-1][0] < 12 and abs(new_arr[-1][0] - new_arr[0][0]) >= 12  else new_arr[-1][0]\n    new_arr[0][0] = new_arr[0][0] + 24 if new_arr[0][0] < 12 and abs(new_arr[-1][0] - new_arr[0][0]) >= 12 else new_arr[0][0]\n    hours1, hours2 = abs(new_arr[-1][0] - new_arr[0][0])*60, abs(new_arr[0][0] - new_arr[-1][0])*60\n    minutes1, minutes2 = new_arr[-1][1] - new_arr[0][1], new_arr[0][1] - new_arr[-1][1] # Use ABS? abs?\n    differences.append(min((hours1+minutes1), (hours2 + minutes2)))\n    print(\"here_1: \", differences)\n    print(\"here_2: \", sorted(differences))\n    print(\"here_3: \", [indices[i] for i in sorted(range(len(differences)), key=lambda x: differences[x])])\n\n    ind1, ind2 = indices[np.argmin(np.array(differences))], indices[(np.argmin(np.array(differences))+1)% len(new_arr)]\n    # print(\"differences: \" , differences)\n    return [data_input[ind1], data_input[ind2]]\n\nres = solution(data_input)\n# print(\"res: \", res)\nfor res_cur in res:\n    print( str(res_cur))",
+			"settings":
+			{
+				"buffer_size": 2355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\ndef  getMinTimeDifference( times):\n    # if distinct\n    if len(times) >= 24*60:\n        return 0\n    differences = []\n    new_arr = [[int(inp.split(\":\")[0]), int(inp.split(\":\")[1])] for inp in times]\n    indices = sorted(range(len(new_arr)), key=lambda l: (new_arr[l][0], new_arr[l][1]))\n               \n    new_arr = sorted(new_arr, key=lambda x: (x[0], x[1]))\n    \n    for i in range(1, len(new_arr)):\n        new_arr[i][0] = new_arr[i][0] < 12 and abs(new_arr[i][0] - new_arr[i-1][0]) >= 12 else new_arr[i][0]\n\n\n\n\n        ",
+			"settings":
+			{
+				"buffer_size": 527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "def  getSuspiciousList( transactions):\n    frauds = []\n    \n    for i in range(len(transactions)):\n        transaction transactions[i]\n        name, amount, city, time = get_name(transaction), get_amount(transaction), get_city(transaction), get_time(transaction)\n\n        if amount >= 3000:\n            frauds.append(name)\n\n        else:\n            for transaction in transactions[i:]:\n                if time_diff(time, _time) < 60:\n                    break\n                if get_name(transaction) == name:\n                    _name, _amount, _city, _time = get_name(transaction), get_amount(transaction), get_city(transaction), get_time(transaction)\n                else:\n                    continue\n\n\ndef time_diff(a, b):\n    a_mins = int(a.split(\":\")[0])*60 + int(a.split(\":\")[1])\n    print(a_mins)\n    b_mins = int(b.split(\":\")[0])*60 + int(b.split(\":\")[1])\n    print(b_mins)\n    return min(abs(a_mins - b_mins), abs((1440 - a_mins) - b_mins)) if a_mins > b_mins else min(abs(a_mins + b_mins), abs((1440 - b_mins) + a_mins))",
+			"settings":
+			{
+				"buffer_size": 1033,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "private static int TOTAL_MINUTES = 1440; //total number of minutes between 00:00 and 23:59 = 60*24 = 1440;\nstatic int getMinTimeDifference(String[] times) {\n    int N = times.length;\n    boolean[] hasTime = new boolean[TOTAL_MINUTES + 1]; // true of a give time (converted into minutes) exsits\n    int minMinute = TOTAL_MINUTES, maxMinute = 0; // lower and upper bound of time array\n    for (int i = 0; i < N; i++) {\n        int minutes = Integer.parseInt(times[i].substring(0, 2)) * 60 + Integer.parseInt(times[i].substring(3, 5)); // convert time string into minutes\n        // time already exsited, so difference is automatically 0\n        if (hasTime[minutes]) {\n            return 0;\n        }\n        hasTime[minutes] = true;\n        minMinute = minutes < minMinute ? minutes : minMinute;\n        maxMinute = minutes > maxMinute ? minutes : maxMinute;\n    }\n\n    // initialize the result based on minMinute and maxMinute\n    int res = Math.min(maxMinute - minMinute, minMinute - maxMinute + TOTAL_MINUTES);\n    // previous exist minute\n    int prevMinuteIndex = minMinute;\n    // moving index to check if hasTime[index] is true\n    int index = minMinute;\n    while (++index <= maxMinute) {\n        if (hasTime[index]) {\n            int diff = index - prevMinuteIndex;\n            res = diff < res ? diff : res; // update result\n            prevMinuteIndex = index; // update previous\n        }\n    }\n    return res;\n}",
+			"settings":
+			{
+				"buffer_size": 1423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\"Standard\"\nimport numpy as np\n\ndata_input = ['24:59','02:00','13:11','21:19','10:00','12:22','11:11','07:27','09:32']\n\ndef solution(data_input):\n    differences = []\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]), int(inp.split(\":\")[1])] for inp in data_input]\n    indices = sorted(range(len(new_arr)), key=lambda k: (new_arr[k][0],new_arr[k][1]))\n\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: (x[0], x[1]))\n\n    # 3\n    for i in range(1,len(new_arr)):\n        hours = abs(new_arr[i-1][0] - new_arr[i][0])*60\n        minutes = new_arr[i][1] - new_arr[i-1][1] # Use ABS? abs?\n        differences.append(hours + minutes)\n\n    ind1, ind2 = indices[np.argmin(np.array(differences))], indices[np.argmin(np.array(differences))+1]\n\n    return [data_input[ind1], data_input[ind2]]\n    \n\nres = solution(data_input)\nfor res_cur in res:\n    print( str(res_cur))",
+			"settings":
+			{
+				"buffer_size": 859,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "data_input = [\"23:59\",\"00:10\",\"02:00\",\"13:11\",\"21:19\",\"10:00\",\"12:22\",\"11:11\",\"07:27\",\"09:32\"]\n",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Unix",
+				"name": "data_input = [\"23:59\",\"00:10\",\"02:00\",\"13:11\",\"21:"
+			}
+		},
+		{
+			"contents": "for (int i = 0; i < N; i++) {\n    int minutes = Integer.parseInt(times[i].substring(0, 2)) * 60 + Integer.parseInt(times[i].substring(3, 5)); // convert time string into minutes \n    // time already exsited, so difference is automatically 0 \n    if (hasTime[minutes]) {\n        return 0;\n    }\n    hasTime[minutes] = true;\n    minMinute = minutes < minMinute ? minutes : minMinute;\n    maxMinute = minutes > maxMinute ? minutes : maxMinute;\n}\n",
+			"settings":
+			{
+				"buffer_size": 443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/** * Idea: counting sort. Convert a time string into an integer which represents minutest. Store all exsiting minutes into a boolean array of length 1441 and scan the boolean array to get the minimum difference * * Time complexity: O(TOTAL_MINUTES) or O(N) if N less than TOTAL_MINUTES * Space complexity: O(TOTAL_MINUTES) */\nprivate static int TOTAL_MINUTES = 1440; //total number of minutes between 00:00 and 23:59 = 60*24 = 1440; static int getMinTimeDifference(String[] times) { int N = times.length; boolean[] hasTime = new boolean[TOTAL_MINUTES+1]; // true of a give time (converted into minutes) exsits int minMinute = TOTAL_MINUTES, maxMinute = 0; // lower and upper bound of time array for(int i=0; i maxMinute ? minutes : maxMinute; } int res = Math.min(maxMinute-minMinute, minMinute-maxMinute+TOTAL_MINUTES); // initialize the result based on minMinute and maxMinute int prevMinuteIndex = minMinute; // previous exist minute int index = minMinute; // moving index to check if hasTime[index] is true while(++index <= maxMinute) { if(hasTime[index]) { int diff = index - prevMinuteIndex; res = diff < res ? diff : res; // update result prevMinuteIndex = index; // update previous } } return res; }\n",
+			"settings":
+			{
+				"buffer_size": 1209,
+				"line_ending": "Unix",
+				"name": "/** * Idea: counting sort. Convert a time string i"
+			}
+		},
+		{
+			"contents": "\"Standard With Print Statements\"\nimport numpy as np\n\ndata_input = ['24:59','02:00','13:11','21:19','10:00','12:22','11:11','07:27','09:32']\n\ndef solution(data_input):\n    differences = []\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]),int(inp.split(\":\")[1])] for inp in data_input]\n    indices = sorted(range(len(new_arr)), key=lambda k: (new_arr[k][0],new_arr[k][1]))\n\n    print(\"(1) new_arr: \", new_arr)\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: (x[0], x[1]))\n    print(\"(2) new_arr: \", new_arr)\n    # 3\n    # new_arr = sorted(new_arr, key = lambda x: x[1])\n    # print(\"(3) new_arr: \", new_arr)\n    # 4\n    for i in range(1,len(new_arr)):\n        hours = abs(new_arr[i-1][0] - new_arr[i][0])*60\n        minutes = new_arr[i][1] - new_arr[i-1][1] # Use ABS? abs?\n        differences.append(hours + minutes)\n\n    print(\"(4) new_arr: \", new_arr)\n    print(\"differences: \" , differences)\n    return indices[np.argmin(np.array(differences))], indices[np.argmin(np.array(differences))+1]\n    \n\n\n",
+			"settings":
+			{
+				"buffer_size": 1003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\"Standard + Indices\"\nimport numpy as np\n\ndata_input = ['24:59','02:00','13:11','21:19','10:00','12:22','11:11','07:27','09:32']\n\ndef solution(data_input):\n    differences = []\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]),int(inp.split(\":\")[1])] for inp in data_input]\n    indices = sorted(range(len(new_arr)), key=lambda k: new_arr[k][0])\n    # indices = sorted(indices, key=lambda k: new_arr[k][1])\n\n    print(\"(1) new_arr: \", new_arr)\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: (x[0], x[1]))\n    print(\"(2) new_arr: \", new_arr)\n    # 3\n    # new_arr = sorted(new_arr, key = lambda x: x[1])\n    # print(\"(3) new_arr: \", new_arr)\n    # 4\n    for i in range(1,len(new_arr)):\n        hours = abs(new_arr[i-1][0] - new_arr[i][0])*60\n        minutes = abs(new_arr[i-1][1] - new_arr[i][1])\n        differences.append(hours + minutes)\n\n    print(\"(4) new_arr: \", new_arr)\n    print(\"differences: \" , differences)\n    return indices[np.argmax(np.array(differences))], indices[np.argmax(np.array(differences))+1]\n    \n\n\n",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\"MODed by 24\"\nimport numpy as np\n\ndata_input = ['24:59','02:00','13:11','21:19','10:00','12:22','11:11','07:27','09:32']\n\ndef solution(data_input):\n    differences = []\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]) % 24,int(inp.split(\":\")[1])] for inp in data_input]\n    print(\"(1) new_arr: \", new_arr)\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: x[0])\n    print(\"(2) new_arr: \", new_arr)\n    # 3\n    new_arr = sorted(new_arr, key = lambda x: x[1])\n    print(\"(3) new_arr: \", new_arr)\n    # 4\n    for i in range(1,len(new_arr)):\n        hours = abs(new_arr[i-1][0] - new_arr[i][0])*60\n        minutes = abs(new_arr[i-1][1] - new_arr[i][1])\n        differences.append(hours + minutes)\n\n    print(\"(4) new_arr: \", new_arr)\n    print(\"differences: \" , differences)\n    return np.argmax(np.array(differences))\n    \n\n\n",
+			"settings":
+			{
+				"buffer_size": 824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\"MODed by 24 AND boolean Check for Modding\"\nimport numpy as np\n\ndata_input = ['24:59','02:00','13:11','21:19','10:00','12:22','11:11','07:27','09:32']\n\ndef solution(data_input):\n    differences, _bool = [], False\n    # 1\n    new_arr = [[int(inp.split(\":\")[0]),int(inp.split(\":\")[1])] for inp in data_input]\n    print(\"(1) new_arr: \", new_arr)\n    # 2\n    new_arr = sorted(new_arr, key = lambda x: x[0])\n    print(\"(2) new_arr: \", new_arr)\n    # 3\n    new_arr = sorted(new_arr, key = lambda x: x[1])\n    print(\"(3) new_arr: \", new_arr)\n    # 4\n    for i in range(1,len(new_arr)):\n        if new_arr[i-1][0] >= 24:\n            new_arr[i-1][0] = new_arr[i-1][0] % 24\n            _bool = True\n        if _bool:\n            # Do Something\n        hours = abs(new_arr[i-1][0] - new_arr[i][0])*60\n        minutes = abs(new_arr[i-1][1] - new_arr[i][1])\n        differences.append(hours + minutes)\n\n    print(\"(4) new_arr: \", new_arr)\n    print(\"differences: \" , differences)\n    return np.argmax(np.array(differences))\n    \n\n\n",
+			"settings":
+			{
+				"buffer_size": 1018,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/python_interactive_build.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Snippet: #ifndef … #define … #endif"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import numpy",
+			"clear",
+			"f"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/Users/AhmedThabet/Desktop/palantir_sol_standard.py",
+		"/Users/AhmedThabet/Desktop/palantir_2.py",
+		"/Users/AhmedThabet/Desktop/test.py",
+		"/Users/AhmedThabet/Desktop/p.py",
+		"/Users/AhmedThabet/Desktop/palantir.py",
+		"/Users/AhmedThabet/Desktop/test_java_sol.py",
+		"/Users/AhmedThabet/Desktop/alllll/Coding Challenges/Catching_an_insider_trader/cait.py",
+		"/Users/AhmedThabet/Downloads/hw01 2/hw01.py",
+		"/Users/AhmedThabet/Desktop/stitch.py",
+		"/Users/AhmedThabet/Desktop/catching_an_insider_trader.py",
+		"/Users/AhmedThabet/Desktop/t.py",
+		"/Users/AhmedThabet/Desktop/trading.py",
+		"/Users/AhmedThabet/Desktop/testing/testing_website/index.html",
+		"/Users/AhmedThabet/Desktop/testing/testing_website/script_test.js",
+		"/Users/AhmedThabet/Desktop/darn.txt",
+		"/Users/AhmedThabet/Desktop/darn.html",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/AhmadBadaryPA4/shelve.txt",
+		"/Users/AhmedThabet/Desktop/AhmadBadaryPA4/PC.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/AhmadBadaryPA4/answer.txt",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Root_Finding/bisection.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Root_Finding/fixed_pt_iter.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Interpolation/divided_difference.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Interpolation/neville.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Numerical_Diffrentiation_&_Integration/derivative.py",
+		"/Users/AhmedThabet/Library/Application Support/Sublime Text 3/Packages/User/python_interactive_build.sublime-build",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Numerical_Diffrentiation_&_Integration/simpson.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Numerical_Diffrentiation_&_Integration/divided_difference.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Numerical_Diffrentiation_&_Integration/adaptive_quadrature.py",
+		"/Users/AhmedThabet/Desktop/projects_python/Numerical_Analysis.sublime-project",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.1.md",
+		"/Users/AhmedThabet/Desktop/ScreenShots/stitch.py",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/3/3.5.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice33.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice31.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice25.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice13.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice12.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.6.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.7.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.3.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/3/3.4.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/1/1.3.md",
+		"/Users/AhmedThabet/Desktop/128a/Resources/adaptive_quadrature.py",
+		"/Users/AhmedThabet/Desktop/128a/Resources/simpson.py",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/3/3.3.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/3/3.2.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice32.mdown",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/3/3.1.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/2/2.5.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/2/2.6.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice26.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/practice23.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/2/2.3.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/2/2.2.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/2/2.1.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/1/1.2.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/1/1.1.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/mt/untitled.mdown",
+		"/Users/AhmedThabet/Desktop/school/16a/HWs/HW4/hw4selfgrades.txt",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/css/customStyle.css",
+		"/Users/AhmedThabet/Desktop/divided_difference.py",
+		"/Users/AhmedThabet/Desktop/nev.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/Submissions/Submission 1/AhmadBadaryPA2 10.27.35 AM/m128apa2.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/Submissions/Submission 1/AhmadBadaryPA2 10.27.35 AM/lagrange.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/Submissions/Submission 1/AhmadBadaryPA2 10.27.35 AM/barycentric.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/Submissions/Submission 2/AhmadBadaryPA2/m128apa2.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/Submissions/Submission 2/AhmadBadaryPA2/lagrange.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/Submissions/Submission 2/AhmadBadaryPA2/barycentric.py",
+		"/Users/AhmedThabet/Desktop/128a/Random/m128apa2.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Interpolation/lagrange.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/barycentric.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/lagrange.py",
+		"/Users/AhmedThabet/Desktop/128a/PA2/m128apa2.py",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/Interpolation/main.py",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/2/2.4.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_layouts/NotesPage.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/web_dev/paperjs.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.2.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/school/128a/1.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.8.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/school/128a/2.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/school/128a/4.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/school/128a/6.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/school/128a/5.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.5.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/school/128a/4/4.4.md",
+		"/Users/AhmedThabet/gitpro/Numerical_Analysis/main.py",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/school/128a/3.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/Random/Course_BoilerPlate.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_site/index.html",
+		"/Users/AhmedThabet/Desktop/testing/testing_website/paperJs/paperjs.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/css/normalize.css",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/web_dev/jquery.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/css/sidebar.css",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/work.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/index.html",
+		"/Users/AhmedThabet/Desktop/fonow/* [**Add:**](http:::paperjs.org:reference:path",
+		"/Users/AhmedThabet/Desktop/fonow/paperjs.htm",
+		"/Users/AhmedThabet/Desktop/fonow/index.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/work/web_dev.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_includes/page-header-notes.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_config.yml",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_includes/head.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/content/web_dev/Ajax_notes.md",
+		"/Users/AhmedThabet/Desktop/fonow/TEST.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_includes/page_header_notes.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/Random/boilerplateNotes.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_layouts/TOC.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_layouts/TOC_JQUERY_SCRIPT.html",
+		"/Users/AhmedThabet/Desktop/128a/Burden-Numerical analysis-(2010).pdf",
+		"/Users/AhmedThabet/Desktop/128a/AhmadBadaryPA1/results.txt",
+		"/Users/AhmedThabet/Desktop/128a/m128apa1.py",
+		"/Users/AhmedThabet/Desktop/128a/results.txt",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_layouts/default.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_layouts/page.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/work/school.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/pages/school/128a/128a.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/_includes/page-header.html",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/school/128a/2/2.3.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/boilerplateNotes.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/folders/128a.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/folders/school/128a/3.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/folders/school/128a/4.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/folders/3.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/school/128a/4/4.9.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/school/128a/2/2.7.md",
+		"/Users/AhmedThabet/gitpro/AhmedBadary.github.io/school/128a/2/2.6.md"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a",
+			"print",
+			"priny",
+			"data_in",
+			"int",
+			"print",
+			"indices",
+			"arr[",
+			"arr",
+			"print",
+			"index",
+			"prevMinuteIndex",
+			"hasTime",
+			"hastime",
+			"res",
+			"minutes",
+			"minMinute",
+			"maxMinute",
+			"TOTAL_MINUTES",
+			"times",
+			"n",
+			"N",
+			"n",
+			"N",
+			"n",
+			"N",
+			"n",
+			"N",
+			"n",
+			"N",
+			"n",
+			"N",
+			"(N)",
+			"N",
+			"Math",
+			"true",
+			"subst",
+			"length",
+			"times",
+			"//",
+			" \\:",
+			"\\:",
+			":",
+			"\\?",
+			"?",
+			"\\?",
+			"?",
+			"int",
+			";",
+			"    //",
+			"//",
+			"-1",
+			"i",
+			"i-1",
+			"i",
+			"'",
+			"int",
+			" //",
+			"print",
+			"preve",
+			"prever",
+			"clear",
+			"-2",
+			"- 2",
+			"i =",
+			"i=",
+			"i = ",
+			"clear",
+			"var i = ",
+			"i = ",
+			"log",
+			"cosole",
+			"parent",
+			"TODO",
+			"1",
+			"print",
+			"first_da",
+			"print",
+			"anomalies",
+			"current_price",
+			"price",
+			"current_price",
+			"vals",
+			"current",
+			"flagged_trades",
+			"isBuy",
+			"trader_name",
+			"price",
+			"scal",
+			"scale",
+			"sc",
+			"transl",
+			"scale",
+			"renderer",
+			"rendered",
+			".scale(",
+			"render\\(",
+			"render(",
+			"render",
+			"svgcon",
+			"_____",
+			"canvas",
+			"src",
+			"pth6",
+			"m225",
+			"europe",
+			"pc\\(",
+			">>> ",
+			"plt.plot",
+			"lim",
+			"tol",
+			"f_str",
+			"idx",
+			"sol",
+			"Th2",
+			"L = ",
+			"L =",
+			"L=",
+			"print",
+			"−",
+			"f",
+			"F",
+			"f",
+			"print",
+			"i",
+			"t,",
+			"−",
+			"t"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"      ",
+			"",
+			"-",
+			"",
+			"MinLoad",
+			"MaxLoad",
+			"MinLoad",
+			"bins",
+			"chk",
+			"bstiterator2",
+			"T",
+			"entry",
+			"second",
+			"rest",
+			"first",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Complete the function below.",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								793,
+								793
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2289,
+								2289
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Complete the function below.",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1721,
+								1721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								95
+							]
+						],
+						"settings":
+						{
+							"auto_name": "data_input = [\"23:59\",\"00:10\",\"02:00\",\"13:11\",\"21:",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1209
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/** * Idea: counting sort. Convert a time string i",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								998,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 172.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "palantir.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/_test.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 387.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

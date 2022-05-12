@@ -1,0 +1,51 @@
+_____________________________128a______________________________________
+-the Composite Trapezoidal rule has a truncation error of
+order O(h2)
+
+-All the Newton-Cotes formulas use values of the function at equally-spaced points.
+
+-a Newton-Cotes formula is exact when
+approximating the integral of any polynomial of degree less than or equal to n
+
+-the number of decimal machine numbers in [10^n, 10^n+1] is constant for all integers n
+__________________________________
+-What exactly is the second order runge kutta? Which equation to use?
+
+- Multistep methods can also be derived using Taylor series. An example of the procedure
+involved is considered in Exercise 12. A derivation using a Lagrange interpolating
+polynomial is discussed in Exercise 11.
+
+- Remember that the multistep methods require equal step sizes for the starting values.
+
+- MultiStep Method (Adam-Bashford) is derived LiterallY as a "numerical integration" method on Lagrange Polynomials
+
+- Euler Method is just Adam-Bashford Method with a 0th order Polynomial (integrated).
+-0\
+____________________________web-dev_____________________________________
+-
+
+
+____________________________Sublime_____________________________________
+Fold: OPT + CMND + ]/[
+Wrap: OPT + CMND + Q
+(Un)Mark: CMND + K, CMND + SPACE / G / A / W / X
+Block-Comment: OPT + CMND + /
+Command-Line: CTRL + `
+Side-Bar: CMND + K, CMND + B
+Define-Class: "class" + tab
+Build: CMND + B
+JumpTo-Mtchng-(): CTRL + M
+Drag-to-Sublime: CMND + O, *Drag*
+Files-Search: CMND + T
+Command-Palette: CMND + SHIFT + P
+
+
+____________________________ToDo_____________________________________
+- Sublime->Tools->Dev->*
+- Try Atom?
+- Sublime Fuzzy Search
+- Generators for Randomizaiton Algs
+- List Comprehension with () --> Generator
+
+____________________________Ideas_____________________________________
+- Bernstein Polynomials

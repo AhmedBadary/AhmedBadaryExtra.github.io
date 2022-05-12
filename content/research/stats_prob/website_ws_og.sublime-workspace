@@ -1,0 +1,802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"Au",
+				"Autoencoder"
+			],
+			[
+				"Auto",
+				"Autoencoders"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "statistics.md",
+			"settings":
+			{
+				"buffer_size": 17537,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/concepts.md",
+			"settings":
+			{
+				"buffer_size": 95244,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/Course_BoilerPlate.md",
+			"settings":
+			{
+				"buffer_size": 9865,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/ping_roadmap.md",
+			"settings":
+			{
+				"buffer_size": 12931,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nlayout: NotesPage\ntitle: Learning\npermalink: /work_files/research/dl/theory/learning_summary\nprevLink: /work_files/research/dl/theory.html\n---\n\n## The Learning Problem\n\n<span>__Learning:__</span>{: style=\"color: goldenrod\"}  \nA computer program is said to <span>learn</span>{: style=\"color: goldenrod\"} from *__experience__* $$E$$ with respect to some class of *__tasks__* $$T$$ and *__performance measure__* $$P$$, if its performance at tasks in $$T$$, as measured by $$P$$, improves with experience $$E$$.  \n\n\n1. **The Basic Premise/Goal of Learning:**{: style=\"color: SteelBlue\"}{: .bodyContents1 #bodyContents11}  \n    <span>\"Using a set of observations to uncover an underlying process\"</span>{: style=\"color: purple\"}  \n    \n    Rephrased mathematically, the __Goal of Learning__ is:   \n    Use the Data to find a hypothesis $$g \\in \\mathcal{H}$$, from the hypothesis set $$\\mathcal{H}=\\{h\\}$$, that _approximates_ $$f$$ well.<br>\n\n2. **When to do Learning:**{: style=\"color: SteelBlue\"}{: .bodyContents1 #bodyContents12}  \n    When:  \n    1. A pattern Exists\n    2. We cannot pin the pattern down mathematically \n    3. We have Data<br>\n\n3. **Components of the Problem (Learning):**{: style=\"color: SteelBlue\"}{: .bodyContents1 #bodyContents13}  \n    * __Input__: $$\\vec{x}$$  \n    * __Output__: $$y$$ \n    * __Data__:  $${(\\vec{x}_ 1, y_ 1), (\\vec{x}_ 2, y_ 2), ..., (\\vec{x}_ N, y_ N)}$$ \n    * __Target Function__: $$f : \\mathcal{X} \\rightarrow \\mathcal{Y}$$  (Unknown/Unobserved)  \n    * __Hypothesis__: $$g : \\mathcal{X} \\rightarrow \\mathcal{Y}$$  \n        Learned from the Data, with the hope that it approximates $$f$$ well.<br>  \n\n5. **Components of the Solution:**{: style=\"color: SteelBlue\"}{: .bodyContents1 #bodyContents15}  \n    * __The Learning Model__:  \n        * __The Hypothesis Set__:  $$\\mathcal{H}=\\{h\\},  g \\in \\mathcal{H}$$  \n            E.g. Perceptron, SVM, FNNs, etc.  \n        * __The Learning Algorithm__: picks $$g \\approx f$$ from a hypothesis set $$\\mathcal{H}$$  \n            E.g. Backprop, Quadratic Programming, etc.<br>\n\n8. **The Learning Diagram:**{: style=\"color: SteelBlue\"}{: .bodyContents1 #bodyContents18}  \n    ![img](/main_files/dl/theory/caltech/3.png){: width=\"70%\"}  \n\n\n7. **Types of Learning:**{: style=\"color: SteelBlue\"}{: .bodyContents1 #bodyContents17}  \n    * __Supervised Learning__: the task of learning a function that maps an input to an output based on example input-output pairs.  \n        ![img](/main_files/dl/theory/caltech/4.png){: width=\"50%\"}  \n    * __Unsupervised Learning__: the task of making inferences, by learning a better representation, from some datapoints that do not have any labels associated with them.  \n        ![img](/main_files/dl/theory/caltech/5.png){: width=\"50%\"}  \n        > Unsupervised Learning is another name for [Hebbian Learning](https://en.wikipedia.org/wiki/Hebbian_theory)\n    * __Reinforcement Leaning__: the task of learning how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward.  \n        ![img](/main_files/dl/theory/caltech/6.png){: width=\"50%\"}<br>\n\n\n<!-- ## The Feasibility of Learning\n\n<div class=\"borderexample\" markdown=\"1\" Style=\"padding: 0;\">\nThe Goal of this Section is to answer the question:   \n<span>__\"Can we make any statements/inferences outside of the sample data that we have?\"__</span>{: style=\"color: purple\"}\n</div>\n<br>\n\n1. **The Problem of Learning:**{: style=\"color: SteelBlue\"}{: .bodyContents2 #bodyContents21}  \n    Learning a truly __Unknown__ function is __Impossible__, since outside of the observed values, the function could assume _any value_ it wants.<br>\n\n2. **Learning is Feasible:**{: style=\"color: SteelBlue\"}{: .bodyContents2 #bodyContents22}  \n    The statement we made that is equivalent to __Learning is Feasible__ is the following:  \n    We establish a __theoretical guarantee__ that when you <span>__do well in-sample__</span>{: style=\"color: purple\"} $$\\implies$$ you <span>__do well out-of-sample (*\"Generalization\"*)__ </span>{: style=\"color: purple\"}.  \n\n    __Learning Feasibility__:  \n    When learning we only deal with In-Sample Errors $$E_{\\text{in}}(\\mathbf{w})$$; we never handle the out-sample error explicitly; we take the theoretical guarantee that when you do well in-sample $$\\implies$$ you do well out-sample (Generalization).<br>\n\n3. **Achieving Learning:**{: style=\"color: SteelBlue\"}{: .bodyContents2 #bodyContents23}  \n    __Generalization VS Learning:__  \n    We know that _Learning is Feasible_.\n    * __Generalization__:  \n        It is likely that the following condition holds:  \n        <p>$$\\: E_{\\text {out }}(g) \\approx E_{\\text {in }}(g)  \\tag{3.1}$$</p>  \n        This is equivalent to \"good\" __Generalization__.  \n    * __Learning__:  \n        Learning corresponds to the condition that $$g \\approx f$$, which in-turn corresponds to the condition:  \n        <p>$$E_{\\text {out }}(g) \\approx 0  \\tag{3.2}$$</p>      \n\n\n    __How to achieve Learning:__{: style=\"color: red\"}    \n    We achieve $$E_{\\text {out }}(g) \\approx 0$$ through:  \n    {: #lst-p}\n    1. $$E_{\\mathrm{out}}(g) \\approx E_{\\mathrm{in}}(g)$$  \n        A __theoretical__ result achieved through Hoeffding __(PROBABILITY THEORY)__{: style=\"color: goldenrod\"}.   \n    2. $$E_{\\mathrm{in}}(g) \\approx 0$$  \n        A __Practical__ result of minimizing the In-Sample Error Function (ERM) __(OPTIMIZATION)__{: style=\"color: goldenrod\"}.  \n\n    Learning is, thus, reduced to the 2 following questions:  \n    {: #lst-p}\n    1. Can we make sure that $$E_{\\text {out }}(g)$$ is close enough to $$E_{\\text {in }}(g)$$? (theoretical)  \n    2. Can we make $$E_{\\text {in}}(g)$$ small enough? (practical)<br> -->",
+			"settings":
+			{
+				"buffer_size": 5710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/learning_summary.md",
+			"settings":
+			{
+				"buffer_size": 5701,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/learning_problem_caltech.md",
+			"settings":
+			{
+				"buffer_size": 41342,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Stock movement prediction is a challenging problem: \n* high market stochasticity: the market is highly __stochastic__ (random) \n* temporally-dependent prediction: and we make __temporally-dependent__ predictions \n* chaotic market information: from __chaotic__ data.  \n\n\n\n* Ensemble Forecasting (weather)\n* Group Method of Data Handling for TimeSeries Forecasting\n    * [Paper](file:///Users/ahmadbadary/Downloads/ForecastingtheREITsandstockindicesGroupMethodofDataHandlingNeuralNetworkapproach1.pdf)  \n    * [Wiki](https://en.wikipedia.org/wiki/Group_method_of_data_handling)  \n    * [Group Method of Data Handling in Python (github)](https://github.com/kvoyager/GmdhPy)  \n    * [GMDH Review Microsoft Research (Paper)](https://gmdhsoftware.com/GMDH_%20Anastasakis_and_Mort_2001.pdf)  \n* ARIMA Methods for TimeSeries Forecasting\n* [Probabilistic Forecasting (wiki)](https://en.wikipedia.org/wiki/Probabilistic_forecasting)  \n* \n* Successful Paper: [Predicting Stock Prices Using LSTM (paper)](https://www.researchgate.net/publication/327967988_Predicting_Stock_Prices_Using_LSTM)  \n\n\n---\n* [SimFin Tutorial 04 - Signals (git)](https://github.com/SimFin/simfin-tutorials/blob/master/04_Signals.ipynb)  \n* [SimFin Tutorial 01 - Basics: Download Data (git)](https://github.com/SimFin/simfin-tutorials/blob/master/01_Basics.ipynb)  \n* [Deep Trading (git)](https://github.com/Rachnog/Deep-Trading)  \n\n\n---\nhttps://api.usfundamentals.com/v1/indicators/xbrl?indicators=Goodwill,NetIncomeLoss&companies=320193,1418091&token=your_access_token\nAssets,AssetsCurrent,CashAndCashEquivalentsAtCarryingValue,Liabilities,LiabilitiesCurrent,NetCashProvidedByUsedInFinancingActivities (yearly only),NetCashProvidedByUsedInInvestingActivities (yearly only),NetCashProvidedByUsedInOperatingActivities (yearly only),OperatingIncomeLoss,PropertyPlantAndEquipmentNet,Revenues\n\n\n---\n```python\ndef build_model(layers):\n#     d = 0.2\n    inputs = keras.layers.Input(shape=(None, 6))\n    x = keras.layers.Conv1D(128, 6, activation='relu')(inputs)\n#     x = keras.layers.Conv1D(32, 4, activation='relu')(x)\n#     x = keras.layers.GlobalMaxPool1D()(x)\n    x = keras.layers.LSTM(32, return_sequences=False)(x)\n    x = Dense(16,init='uniform',activation='relu')(x)\n    outputs = Dense(layers[2],init='uniform', activation='relu')(x)\n    return keras.models.Model(inputs=inputs, outputs=outputs)\n```\n\n\n---\nnp.array([[[32, 2],[41, 2],[39, 2],[20, 2],[15, 2], [15, 2]],\n          [[35, 2],[32, 2],[41, 2],[39, 2],[20, 2], [20, 2]],\n          [[32, 2],[41, 2],[39, 2],[20, 2],[15, 2], [15, 2]],\n          [[35, 2],[32, 2],[41, 2],[39, 2],[20, 2], [20, 2]],\n          [[35, 2],[32, 2],[41, 2],[39, 2],[20, 2], [20, 2]],\n         ])\n\n(#Inputs, Time-Steps, #Features/step)\n(#Inputs, #days, #Features/day)\n\n\n---\nd(m1, y) > d(m2, y)  -->  m1 < m2\nF: R^n --> R\n1. d(x,y) = 0  <--> x==y\n2. d(x,y) > d(x,z) + d(z,y)\n3. d(x,y) = d(y,x)\n\n\n---\nSolution to Dating:\n    * Problem: Everybody gets access to everybody, thus, girls get a lot of attention because they are aware that there exists a very very large number of potential mates.\n    * Solution: Restrict the access of people to a specific group of people to simulate what happens in Real-Life (bar). Now, X (e.g. 15) guys get to rank a sub-group of girls and the pool becomes more balanced.\n\n\n---\nScore (loss):  0.00015542263891664198\nScore (loss):  0.0004150167806074023",
+			"settings":
+			{
+				"buffer_size": 3382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "* Prev-day MSE: `4.72e-05` \n    Code: ```np.mean((y_test.reshape((344,1))[1:] - np.roll(y_test.reshape((344,1)), 1)[1:])**2)```\n* aapl/lstm-deep.ipynb is doing well (≈60)\n* Regularization on the dense kernel really affects fitting performance and causes Gradient-Exps\n    * Yet, removing it yields much worse results for 'gamble'\n* Smaller lr w/ smaller regularization yields stable training (LSTM-32, regs=[.00005, .0000001], lr=.001, epochs=3k)!!\n* Window-Norm > MinMax-Norm\n---\n'Volume', 'Close' > 'Open', 'Close'\n'Volume', 'Close' > 'Open', 'Volume', 'Close'\n'Open', 'Volume', 'Close' > 'Open', 'high', 'low', 'close'\nregularization (dropout+kernel-reg) > less regularization\n\nIncreasing rec_drop wasn't helpful\nLeaving rec_drop, size \\~48, with Dense Layer BUT REMOVING THE KERNEL_REG was the BEST.\nLSTM-22-rec_drop-.2+Dense-16-no-reg!!\n\n['High', 'Low', 'Open', 'Close'] is bad (0.00010672) Overfits quick\n['Close'] is good (.88)\n['High', 'Low', 'Open', 'Volume', 'Close'] is good (.87)\n['Volume', 'Close'] is bad (.15)\n[all] is fine (.10) but overfits on sells/buys\n---\n* The trend is similar between validation and testing datasets\n* It is important to have not just the accuracy, but also (and mainly) the loss be low for val\n* The optimal thresholds are usually very similar\n* The optimal thresholds tend to be <.5\n* It is more important to be able to predict the \"buys\" (c=1) than the \"sells\" (c=0)\n---\n* - In any network, the bias can be reduced at the cost of increased variance\n  - In a group of networks, the variance can be reduced at no cost to bias\n---\n\n__Information:__\n* Risk = Variance || Volatility = SD\n* momentum, value, dividend, size, beta, seasonality, short term reversal, etc. Author names like Jigadeesh, Basu, Fama, French, Carhart, Schiller are the ones I started with.\n------\n\n------\n\nbot_y_corr, bot_opt_corr, opt_y_corr, losses&mse(s), dif_metrics, record_aggreements, return, buys_sells_stats, \n\n##################################################################################################################################\n##################################################################################################################################\n\n\n\n* Security write up\n> * Clean up code\n> * Test new auxiliary architecture\n* Deep Trade repo\n* Answer one q/a\n* Create an AAPL super ensemble\n> * Automatic hp tuning\n* Auto-ml\n* Try trading last one month (compared w/ opt)\n+ * Try classification w/ X binary\n* Augment the Data w/ other similar companies\n* For binary classification, change the threshold value, make more classes (h_buy/sell), \n* Test Transfer-Learning between (correlated?) companies Cls & Reg\n* Compare the Reg-Models scores vs Cls-Models scores\n* Compare the Linear-Cls-Models scores vs Deep-Cls-Models scores\n* Create Criteria for testing what model does well (e.g. corr w/ opt but not target)\n---\n* Create models for GOOG, NFLX, TSLA, FB\n* Create models trained on Full-Dataset for Real-Time Testing\n* Build Real-Time Testing\n---\n* Look into lyft/uber stock\n* Look into Tesla Stock: short? buy? (idk...)\n* \n---\n* Use Alpaca for Analysis\n* Use Alpaca for a paper account using the current models\n* Continue Adityas Notebook\n* Try AutoML on the problem\n* Try adding more features to the data and training\n* Clean the code up...\n* Create the list of metrics you want to save for the models (Save Model Function)\n* HyperParameter Optimization w/ HypEras\n* \n---\n* Analyze the companies that dipped the most w/ the market (correlation w/ sp500, nasdaq, dow, etc): pick the ones that dipped the least.\n* Analyze the average time/percentage-decrease that it takes for a company/market during a crash.  \n    Find the best time to have a stop-loss and sell before the downward spiral continues (if possible).  \n\n\n--------------------\n\nZach:\n* read and get the jest: \n    * https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291099-131X%28199801%2917%3A1%3C59%3A%3AAID-FOR676%3E3.0.CO%3B2-H\n    * https://sci-hub.se/https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291099-131X%28199801%2917%3A1%3C59%3A%3AAID-FOR676%3E3.0.CO%3B2-H\n    * Supplement with this: https://www.scirp.org/(S(czeh2tfqyw2orz553k1w0r45))/journal/paperinformation.aspx?paperid=64448\n\n* Role of Volatility in Trading\n    * Can we use it in ML? How?\n* Look into VIX and IVX indices and describe them. Quantitative and Qualitative ramifications.\n* Calculate volatility of a given stock over N-periods. Both Historical and Implied (future?).  \n    * https://en.wikipedia.org/wiki/VIX\n    * https://en.wikipedia.org/wiki/IVX\n* What is \"Volatility Trading\"? What kind of strategies are employed there?\n\n* Can we use the Black–Scholes model? Investigate.\n\n\n* Role of the Kalman Filter in Estimating Time-Series statistics\n\n\n##################################################################################################################################\n##################################################################################################################################\n\n\nbot_y_corr, bot_opt_corr, opt_y_corr, losses&mse(s), dif_metrics, record_aggreements, return, buys_sells_stats, \n\n- CustLoss: MAE, MSE; Lambdas\n- Open Sameday\n- Integrating Predictions for: Low, High, Volume, Open\n- Normalizations: MinMax, Window, Standardization, \n- Regression VS Classification\n- Models: LSTM, Seq2Seq, Linear, CNN, DNNs, \n- Features: OHLVC, MAs, Indicators\n- Deep VS Shallow\n- Extra Data: Other Companies, Generated, \n- Trained on Validation VS not\n- \n- AutoML\n\n\n\n\n\n# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n\n- Create the Models\n- Strategy Optimization\n- Experiments and their results\n\n\n##################################################################################################################################\n##################################################################################################################################\n\n\nVerdict for Open w/ Val-in-Train & RecDropout:\n\n* RecDropout: Causes fast descent but Overfitting\n* Val-in-Train: Makes it very hard to find the minimas (i.e. monitor-value isn't easily correlated)\n* Both: Fast-Descent, OverFitting, BUT + makes the monitor-value correlated again!\n* STD: Not bad at all! (Best of both worlds)\n\n* RecDropout: sometimes can make things fine, but seems to cause a lot of overfitting for some reason...\n\n\n---\n\n* Rogers Pay\n* Credit Card (BOA) pay\n* TransferWise?!?!\n* More Calcium\n* \n\n\n##################################################################################################################################\n##################################################################################################################################\n\n.01-MAE    : down-up/flat-downish\n.0005-MSE  : doooooooown-uup\n.00005-MSE : doooooooooooown\n.000005-MSE: dooown-flaaat-up\n.01-MSE    : flaaaaaaaat-down",
+			"settings":
+			{
+				"buffer_size": 6909,
+				"line_ending": "Unix",
+				"name": "* Prev-day MSE: `4.72e-05`"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl"
+	],
+	"file_history":
+	[
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/ping_short.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/boilerplateNotes.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/projects.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/concepts_clean.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/index.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/work.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/hoefding_lec_abumostafa_3",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/hoefding_lec_abumostafa_2",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/hoefding_lec_abumostafa",
+		"/Users/ahmadbadary/git/ML/untitled/og/originaltrain.csv",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/stats_prob/prob.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/learning_summary.md",
+		"/Users/ahmadbadary/p_git/fin_ml/helpers/ie_utils.py",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/Course_BoilerPlate.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/test.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/investing.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/* **Mishcon:**{: style=\"color: SteelBlue\"}",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/mpt.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/temp_1.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/temp_2.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/concepts.md",
+		"/Users/ahmadbadary/p_git/fin_ml/helpers/temp_3.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/optimization/2/2.3.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/archt/pgm.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/pages/work/research/dl/concepts/concepts.md",
+		"/Users/ahmadbadary/Downloads/temp_3",
+		"/Users/ahmadbadary/Desktop/deep_trade/ws_buys_sells.txt",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/finance/untitled.md",
+		"/Users/ahmadbadary/Desktop/ping/ng_v1_templates.txt",
+		"/Users/ahmadbadary/Desktop/ng_v1_templates.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/regularization.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/ans2.md",
+		"/Users/ahmadbadary/p_git/fin_ml/tensorflow/configure.py",
+		"/Users/ahmadbadary/p_git/fin_ml/tensorflow/configure",
+		"/Users/ahmadbadary/p_git/fin_ml/tensorflow/configure.cmd",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/select_topic.py",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/ml_research.md",
+		"/Users/ahmadbadary/Desktop/est.sh",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/ml/1/1.2.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/questions_today.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/answers_today.md",
+		"/Users/ahmadbadary/p_git/fin_ml/sentdex/alg_trading/SP500_component_stocks.csv",
+		"/Users/ahmadbadary/p_git/fin_ml/sentdex/alg_trading/SP500_changes.csv",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/answers.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/questions.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/archt/auto_encdr.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/practical/practical_concepts.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/concepts/data_proc.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/rl.md",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/ping_roadmap.md",
+		"/Users/ahmadbadary/p_git/fin_ml/sentdex/cryptocurrency_w:RNNs/Cryptocurrency-predicting_RNN_Model.py",
+		"/Users/ahmadbadary/p_git/fin_ml/SirjRav/lstm_stock_prediction/GOOGLE stock prediction.ipynb",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Gemfile.lock",
+		"/Users/ahmadbadary/p_git/AhmedBadary.github.io/Gemfile",
+		"/Applications/Python 3.7/Install Certificates.command"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"transl",
+			"than not",
+			"more likel",
+			"unif",
+			"uniform",
+			"asym",
+			"hoef",
+			"important",
+			"delib",
+			"picking a ",
+			"to insist on",
+			"impossible",
+			"pattern or not",
+			"input space",
+			"full ",
+			"full f",
+			"full fl",
+			"examples",
+			"more ex",
+			"Properties",
+			"valid",
+			"valid ",
+			"off",
+			"trade",
+			"attractive prop",
+			"attracti",
+			"uniform",
+			"formaliz",
+			"4",
+			"2",
+			"    __Data Preparation:__{: style=\"color: red\"}  \n    {: #lst-p}\n    * Outlier detection\n    * Missing Value Imputation\n    * Data Sampling\n    * Data Scaling\n    * Variable Encoding  \n\n    __Model Evaluation:__{: style=\"color: red\"}  \n    {: #lst-p}\n    * Data Sampling\n    * Data Re-Sampling\n    * Experimental Design\n\n    __Model Selection:__{: style=\"color: red\"}  \n    {: #lst-p}\n    * Checking for a significant difference between results\n    * Quantifying the size of the difference between results  \n\n\n    __Model Presentation:__{: style=\"color: red\"}  \n    {: #lst-p}\n    * Summarizing the expected skill of the model on average\n    * Quantifying the expected variability of the skill of the model in practice\n\n    __Prediction:__{: style=\"color: red\"}  \n    {: #lst-p}\n    * Quantifying the expected variability for the prediction.  ",
+			"Model Evaluation",
+			"Hypotheses are about population parameters. \nThe Null Hypothesis includes __Equality__; others include __Inequalities__.  \n\n__Significance Level ($$\\alpha$$):__ is the probability that we reject the Null Hypothesis when in-reality it is correct.  \n\nPeople will buy more chocolate if we give away a free gift with the chocolate.\n* Population: All days we sell chocolate\n* Sample: the days in the next month (not so random - oh well..)\n* Set-up: on each day, __randomly__ give out a gift with the chocolate or not (toss a coin)\n\n* Treatments: \n    * Offering a gift\n    * Not offering a gift\n* Hypotheses: \n    * $$H_0$$: There is no difference in <span>*__mean__* sales</span>{: style=\"color: purple\"} (for the population) for the two treatments.  \n        * Math: $$\\mathrm{H}_{0}: \\mu_{\\text {free sticker}}=\\mu_{\\text {no sticker}}$$  \n            $$\\iff$$  \n            $$\\mathrm{H}_{0}: \\mu_{\\text {free sticker }}-\\mu_{\\text {no sticker }}=0$$  \n        * English: There is no difference in the sales for the two treatments.  \n    * $$H_0$$: There is a difference in <span>*__mean__* sales</span>{: style=\"color: purple\"} (for the population) for the two treatments.  \n        * Math: $$\\mathrm{H}_{1}: \\mu_{\\text {free sticker }} \\neq \\mu_{\\text {no sticker }}$$\n            $$\\iff$$  \n            $$\\mathrm{H}_{1}: \\mu_{\\text {free sticker }}-\\mu_{\\text {no sticker }} \\neq 0$$  \n\n\nOne-Tailed: the hypotheses have an inequality ($$\\leq$$ or $$\\geq$$) and an inequality ($$>$$ or $$<$$).  \nTwo-Tailed: the hypotheses have an equality ($$=$$) and a non-equality ($$\\neq$$).  \n\n\n* P-Value: is a probability. Precisely, it is the probability that we would get our sample result _by chance_, IF there is NO effect in the population.  \n    * How likely is it to get the results that you observe, IF the Null Hypothesis is true.  \n        * If very likely: The Null Hypothesis is probably True.  \n        * If very unlikely: The Null Hypothesis is probably False.  \n    * [Understanding where the p-value comes from (Vid)](https://www.youtube.com/watch?v=0-fEKHSeRR0)  \n\nA small p-value indicates a significant result. The smaller the p-value the more confident we are that the Null Hypothesis is wrong.  \n\n\n\nStatistical Significance: We have evidence that the result we see in the *__sample__* also exist in the *__population__* (as opposed to chance, or sampling errors).  \nThus, when you get a p-value less than a certain significance level ($$\\alpha$$) and you reject the Null Hypothesis; you have a __statistically significant result__.  \nThe __larger the sample__ the more *__likely__* the results will be statistically significant.  \nThe __smaller the sample__ the more *__unlikely__* the results will be statistically significant.  \n\n\nThe Null Hypothesis for Regression Analysis reads: The slope coefficient of variable-2 is 0. Variable-2 does not influence variable-1.  \n\n\n\nTypes of Data:\n* __Nominal__: AKA __Categorical__, __Qualitative__. E.g. color, gender, preferred chocolate\n    * __Summary Statistics:__ Use Frequency, Percentages. Can't calculate Mean, etc. \n    * __Graphs:__ Pie Chart, Bar Chart, Stacked Bar Chart.  \n    * __Analysis:__ \n* __Ordinal__: E.g. Rank, Satisfaction, Agreement \n    * __Summary Statistics:__ Use Frequency, Proportions. Shouldn't use Means etc. Can use Mean for data like user-emotion.  \n    * __Graphs:__ Bar Chart, Stacked Bar Chart, Histogram\n* __Interval/Ratio__: AKA __Scale__, __Quantitative__, __Parametric__. Types: __Discrete__, __Continuous__. E.g. height, weight, age.  \n    * __Summary Statistics:__ Use Mean, Median, StD.  \n    * __Graphs:__ Bar Chart, Stacked Bar Chart, Histogram; Boxplots; Scatters.\n    * __Analysis:__ \n\nColumn: Variable/Feature\nRow   : Observation\n\n6. **Asynchronous:**{: style=\"color: SteelBlue\"}{: .bodyContents4 #bodyContents46}  \n\n7. **Asynchronous:**{: style=\"color: SteelBlue\"}{: .bodyContents4 #bodyContents47}  \n\n8. **Asynchronous:**{: style=\"color: SteelBlue\"}{: .bodyContents4 #bodyContents48}  \n\n***\n\n## Statistical Tests\n{: #content5}\n\nChoosing a Statistical Test depends on three factors:  \n{: #lst-p}\n* __Data__ (level of measurement?): \n    * __Nominal/Categorical:__ \n        * Test for __Proportion__ \n        * Test for __Difference of Two Proportions__ \n        * __Chi-Squared__ Test for __Independence__  \n    * __Interval/Ratio:__ \n        * Test for the __Mean__  \n        * Test for __Difference of Two Means (independent samples)__ \n        * Test for __Difference of Two Means (paired)__ \n        * Test for __Regression Analysis__ \n    * __Ordinal__:  \n        Ordinal data can be classified with one of the other two depending on the context.  ",
+			"The Null Hypothesis includes",
+			",",
+			") ",
+			")",
+			". ",
+			"Tests",
+			"statistics",
+			" __:",
+			" _",
+			"\n*",
+			"*",
+			" }",
+			"$$$",
+			"Introduction to Statistics",
+			"goldenrod",
+			"    ",
+			",",
+			"IMputation",
+			"{: #lst-p}",
+			"\n    ",
+			"{: #lst-p}",
+			"    *",
+			"\n    ",
+			"__Tasks:__{: ",
+			"Statistics in",
+			"Tasks:__{",
+			"red",
+			"#bodyContents",
+			" #",
+			"img",
+			"###",
+			"))",
+			"((",
+			"x[0-9]{1,3}",
+			"x[0-9]{1,2}",
+			"x",
+			"x ",
+			"x 20",
+			":  ",
+			"=",
+			" \"",
+			"__: **",
+			"__:",
+			":__",
+			"x2:",
+			"* \n#",
+			"__Timers",
+			"\"\"",
+			"__:__",
+			"* * ",
+			":__ ",
+			": ",
+			"Abby Brindley",
+			"Kevin McCarthy",
+			"Gareth Minty",
+			"Suzi Sendama",
+			"Hanna Blom-Cooper",
+			"Abby Brindley",
+			": ",
+			"* ###",
+			"\n* \n",
+			"\n",
+			"\nQ",
+			"100%",
+			"###",
+			"img",
+			"images",
+			"img",
+			"question",
+			"user",
+			"User*",
+			"User",
+			"sentiment_per_user_ext",
+			"Sentiment Histogram",
+			"Sentiment",
+			"**](http",
+			"http",
+			"question",
+			"Question",
+			"Histogram",
+			"sentiment_per_question_hist_ext",
+			"Question",
+			"XX",
+			"sentiment_per_question_hist_ext",
+			"Sentiment Histogram per Question",
+			"**Example:** Largest singular value",
+			" * ",
+			"11:",
+			".md:",
+			"https://www.youtube.com/embed/FUnOdyZZAaE?start=1698",
+			"iframe",
+			"class=\"row_heading level0 ",
+			"Positive",
+			"negative",
+			"__"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "statistics.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/concepts.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 95244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 40.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/Random/Course_BoilerPlate.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 970.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/ping_roadmap.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1767,
+								1767
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/learning_summary.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/ahmadbadary/p_git/AhmedBadary.github.io/content/research/dl/theory/learning_problem_caltech.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "* Prev-day MSE: `4.72e-05`",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lern_pr",
+				"dl/theory/learning_problem_caltech.md"
+			],
+			[
+				"le",
+				"dl/theory/learning_summary.md"
+			],
+			[
+				"2/2.3.",
+				"optimization/2/2.3.md"
+			],
+			[
+				"pgm",
+				"dl/archt/pgm.md"
+			],
+			[
+				"inve",
+				"finance/investing.md"
+			],
+			[
+				"inv",
+				"finance/investing.md"
+			],
+			[
+				"reg",
+				"dl/theory/regularization.md"
+			],
+			[
+				"ans",
+				"ans2.md"
+			],
+			[
+				"regul",
+				"dl/theory/regularization.md"
+			],
+			[
+				"toda",
+				"questions_today.md"
+			],
+			[
+				"sele",
+				"select_topic.py"
+			],
+			[
+				"data",
+				"dl/concepts/data_proc.md"
+			],
+			[
+				"practical",
+				"dl/practical/practical_concepts.md"
+			],
+			[
+				"ping",
+				"~/p_git/AhmedBadary.github.io/content/ping_roadmap.md"
+			],
+			[
+				"rl",
+				"rl.md"
+			],
+			[
+				"ml re",
+				"dl/ml_research.md"
+			],
+			[
+				"in",
+				"finance/investing.md"
+			],
+			[
+				"ques",
+				"questions_today.md"
+			],
+			[
+				"ae",
+				"dl/archt/auto_encdr.md"
+			],
+			[
+				"answe",
+				"answers.md"
+			],
+			[
+				"conce",
+				"dl/practical/practical_concepts.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

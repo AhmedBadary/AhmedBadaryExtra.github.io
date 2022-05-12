@@ -1,0 +1,42 @@
+lst     ->      * __Title__:  
+
+lsts    ->      * *__Title__*:  
+
+ii      ->      *__subject__* 
+
+red     ->      __Title:__{: style="color: red"}  
+
+_       ->      __subject__ 
+
+i       ->      _subject_ 
+
+sp      ->      indented paragraph
+
+---------------------------------------------------------------------------------------------------
+
+$       ->      $$x$$ 
+
+tx      ->      \text{abc}
+
+_tx      ->      _\text{abc}
+
+bf      ->      \mathbf{x}
+
+rm      ->      \mathrm{x}
+
+bb      ->      \mathbb{R}
+
+^^      ->      ^{(l)}
+
+__      ->      _{(t)}
+
+wsp     ->      $$\:\:\:\:\:\:\:$$ 
+
+arg     ->      \mathrm{arg } \max_{w}
+
+mat     ->      \begin{bmatrix} x & x & x  \ x & x & x \ x & x & x  \end{bmatrix}
+
+algn    ->      $$\begin{align} x &= y \\ x &= y \\ x &= y \end{align} $$
+
+-----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,170 @@
+* Prev-day MSE: `4.72e-05` 
+    Code: ```np.mean((y_test.reshape((344,1))[1:] - np.roll(y_test.reshape((344,1)), 1)[1:])**2)```
+* aapl/lstm-deep.ipynb is doing well (≈60)
+* Regularization on the dense kernel really affects fitting performance and causes Gradient-Exps
+    * Yet, removing it yields much worse results for 'gamble'
+* Smaller lr w/ smaller regularization yields stable training (LSTM-32, regs=[.00005, .0000001], lr=.001, epochs=3k)!!
+* Window-Norm > MinMax-Norm
+---
+'Volume', 'Close' > 'Open', 'Close'
+'Volume', 'Close' > 'Open', 'Volume', 'Close'
+'Open', 'Volume', 'Close' > 'Open', 'high', 'low', 'close'
+regularization (dropout+kernel-reg) > less regularization
+
+Increasing rec_drop wasn't helpful
+Leaving rec_drop, size \~48, with Dense Layer BUT REMOVING THE KERNEL_REG was the BEST.
+LSTM-22-rec_drop-.2+Dense-16-no-reg!!
+
+['High', 'Low', 'Open', 'Close'] is bad (0.00010672) Overfits quick
+['Close'] is good (.88)
+['High', 'Low', 'Open', 'Volume', 'Close'] is good (.87)
+['Volume', 'Close'] is bad (.15)
+[all] is fine (.10) but overfits on sells/buys
+---
+* The trend is similar between validation and testing datasets
+* It is important to have not just the accuracy, but also (and mainly) the loss be low for val
+* The optimal thresholds are usually very similar
+* The optimal thresholds tend to be <.5
+* It is more important to be able to predict the "buys" (c=1) than the "sells" (c=0)
+---
+* - In any network, the bias can be reduced at the cost of increased variance
+  - In a group of networks, the variance can be reduced at no cost to bias
+---
+
+__Information:__
+* Risk = Variance || Volatility = SD
+* momentum, value, dividend, size, beta, seasonality, short term reversal, etc. Author names like Jigadeesh, Basu, Fama, French, Carhart, Schiller are the ones I started with.
+------
+
+------
+
+bot_y_corr, bot_opt_corr, opt_y_corr, losses&mse(s), dif_metrics, record_aggreements, return, buys_sells_stats, 
+
+##################################################################################################################################
+##################################################################################################################################
+
+
+
+* Security write up
+> * Clean up code
+> * Test new auxiliary architecture
+* Deep Trade repo
+* Answer one q/a
+* Create an AAPL super ensemble
+> * Automatic hp tuning
+* Auto-ml
+* Try trading last one month (compared w/ opt)
++ * Try classification w/ X binary
+* Augment the Data w/ other similar companies
+* For binary classification, change the threshold value, make more classes (h_buy/sell), 
+* Test Transfer-Learning between (correlated?) companies Cls & Reg
+* Compare the Reg-Models scores vs Cls-Models scores
+* Compare the Linear-Cls-Models scores vs Deep-Cls-Models scores
+* Create Criteria for testing what model does well (e.g. corr w/ opt but not target)
+---
+* Create models for GOOG, NFLX, TSLA, FB
+* Create models trained on Full-Dataset for Real-Time Testing
+* Build Real-Time Testing
+---
+* Look into lyft/uber stock
+* Look into Tesla Stock: short? buy? (idk...)
+* 
+---
+* Use Alpaca for Analysis
+* Use Alpaca for a paper account using the current models
+* Continue Adityas Notebook
+* Try AutoML on the problem
+* Try adding more features to the data and training
+* Clean the code up...
+* Create the list of metrics you want to save for the models (Save Model Function)
+* HyperParameter Optimization w/ HypEras
+* 
+---
+* Analyze the companies that dipped the most w/ the market (correlation w/ sp500, nasdaq, dow, etc): pick the ones that dipped the least.
+* Analyze the average time/percentage-decrease that it takes for a company/market during a crash.  
+    Find the best time to have a stop-loss and sell before the downward spiral continues (if possible).  
+
+
+--------------------
+
+Zach:
+* read and get the jest: 
+    * https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291099-131X%28199801%2917%3A1%3C59%3A%3AAID-FOR676%3E3.0.CO%3B2-H
+    * https://sci-hub.se/https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291099-131X%28199801%2917%3A1%3C59%3A%3AAID-FOR676%3E3.0.CO%3B2-H
+    * Supplement with this: https://www.scirp.org/(S(czeh2tfqyw2orz553k1w0r45))/journal/paperinformation.aspx?paperid=64448
+
+* Role of Volatility in Trading
+    * Can we use it in ML? How?
+* Look into VIX and IVX indices and describe them. Quantitative and Qualitative ramifications.
+* Calculate volatility of a given stock over N-periods. Both Historical and Implied (future?).  
+    * https://en.wikipedia.org/wiki/VIX
+    * https://en.wikipedia.org/wiki/IVX
+* What is "Volatility Trading"? What kind of strategies are employed there?
+
+* Can we use the Black–Scholes model? Investigate.
+
+
+* Role of the Kalman Filter in Estimating Time-Series statistics
+
+
+##################################################################################################################################
+##################################################################################################################################
+
+
+bot_y_corr, bot_opt_corr, opt_y_corr, losses&mse(s), dif_metrics, record_aggreements, return, buys_sells_stats, 
+
+- CustLoss: MAE, MSE; Lambdas
+- Open Sameday
+- Integrating Predictions for: Low, High, Volume, Open
+- Normalizations: MinMax, Window, Standardization, 
+- Regression VS Classification
+- Models: LSTM, Seq2Seq, Linear, CNN, DNNs, 
+- Features: OHLVC, MAs, Indicators
+- Deep VS Shallow
+- Extra Data: Other Companies, Generated, 
+- Trained on Validation VS not
+- 
+- AutoML
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+- Create the Models
+- Strategy Optimization
+- Experiments and their results
+
+
+##################################################################################################################################
+##################################################################################################################################
+
+
+Verdict for Open w/ Val-in-Train & RecDropout:
+
+* RecDropout: Causes fast descent but Overfitting
+* Val-in-Train: Makes it very hard to find the minimas (i.e. monitor-value isn't easily correlated)
+* Both: Fast-Descent, OverFitting, BUT + makes the monitor-value correlated again!
+* STD: Not bad at all! (Best of both worlds)
+
+* RecDropout: sometimes can make things fine, but seems to cause a lot of overfitting for some reason...
+
+
+---
+
+* Rogers Pay
+* Credit Card (BOA) pay
+* TransferWise?!?!
+* More Calcium
+* 
+
+
+##################################################################################################################################
+##################################################################################################################################
+
+.01-MAE    : down-up/flat-downish
+.0005-MSE  : doooooooown-uup
+.00005-MSE : doooooooooooown
+.000005-MSE: dooown-flaaat-up
+.01-MSE    : flaaaaaaaat-down

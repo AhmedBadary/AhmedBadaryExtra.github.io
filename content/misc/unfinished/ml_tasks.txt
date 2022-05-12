@@ -1,0 +1,58 @@
+---Pattern-Recog
+* Sequence Labeling:
+    * Real-valued sequence labeling
+    * 
+* 
+---Microsoft
+* Classification: specify which of $$k$$ categories some input belongs to.  
+    * Binary Classification
+    * Multi-class Classification
+    * Classification w/ missing inputs
+* Regression
+* Clustering
+* Anomaly Detection
+* Ranking
+* Recommendation
+---DL-B
+* Transcription
+* Translation
+* Structured Output
+* Synthesis and Sampling
+* Imputation
+* Denoising
+* Density Estimation
+---Extra
+* Forecasting
+* Dimensionality Reduction
+
+
+***
+
+---Pattern-Recog
+* Sequence Labeling: 
+    * Real-valued sequence labeling:
+        * Algorithms: Linear-Dynamical-Systems, 
+        * Examples: POS-Tagging, 
+    * 
+* 
+---Microsoft
+* Classification: specify which of $$k$$ categories some input belongs to.  
+    * Binary Classification
+    * Multi-class Classification
+    * Classification w/ missing inputs
+* Regression
+* Clustering
+* Anomaly Detection
+* Ranking
+* Recommendation
+---DL-B
+* Transcription
+* Translation
+* Structured Output
+* Synthesis and Sampling
+* Imputation
+* Denoising
+* Density Estimation
+---Extra
+* Forecasting
+* Dimensionality Reduction

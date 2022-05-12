@@ -1,0 +1,98 @@
+- > So here is the first bin.
+
+- Now you can see that this is a bad bin. 
+    So that hypothesis is terrible. 
+    And the sample reflects that, to some extent.
+- So this bin corresponds to a particular > h.
+
+- But we are going to have other bins, so let's call this something. we are going to call this h_1 in preparation for the next guy.
+The next guy comes in, and you have h_2. And you have another mu_2.
+
+- This one looks like a good hypothesis, and it's also reflected in the sample.
+And it's important to look at the correspondence.
+If you look at the top red point here and the top green point here, this is the same point in the input space.
+It just was colored red here and colored green here.
+Why did that happen?
+Because the target function disagrees with this h, and the target function happens to agree with this h.
+That's what got this the color green.
+And when you pick a sample, the sample also will have different colors, because the colors depend on which hypothesis.
+And these are different hypotheses.
+That looks simple enough. > So let's continue.
+
+And we can have M of them.
+
+- I am going to consider a finite number of hypotheses, just to make the math easy for now. And we're going to go more sophisticated when we get into the theory of generalization.
+- So now I have this. This is good.  
+    I have samples, and the samples here are different.  
+    And I can do the learning, and the learning now, abstractly, is to scan these samples looking for a good sample.
+    And when you find a good sample, you declare victory, because of Hoeffding, and you say that it must be that the corresponding bin is good, and the corresponding bin happens to be the hypothesis you chose.
+So that is an abstraction of learning.
+That was easy enough.
+
+Now, because this is going to stay with us, I am now going to introduce the notation that will survive with us for the entire discussion of learning.
+So here is the notation.
+
+We realize that both mu, which happens to be inside the bin, and nu, which happens to be the sample frequency-- in this case, the sample frequency of error-- both of them depend on h.
+So I'd like to give a notation that makes that explicit.
+The first thing, I am going to call mu and nu with a descriptive name.
+So nu, which is the frequency in the sample you have, is in-sample.
+That is a standard definition for what happens in the data that I give you.
+If you perform well in-sample, it means that your error in the sample that I give you is small.
+And because it is called in-sample, we are going to denote it by E_in.
+
+This is our standard notation for the error that you have in-sample.
+Now, we go and get the other one, which happens to be mu. 
+And that is called > out-of-sample.
+
+So if you are in this field, I guess what matters is the out-of-sample performance.
+Out-of-sample means something that you haven't seen.
+And if you perform out-of-sample, on something that you haven't seen, then you must have really learned.
+That's the standard for it, and the name for it is E_out.
+
+With this in mind, we realize that we don't yet have the dependency on h which we need.
+So we are going to make the notation a little bit more elaborate, by calling
+E_in and E_out-- calling them E_in of h, and E_out of h.
+Why is that?
+Well, the in-sample performance-- you are trying to see the error of approximating the target function by your hypothesis.
+That's what E_in is.
+So obviously, it depends on your hypothesis.
+So it's E_in of h. Someone else picks another h, they will get another E_in of their h.
+Similarly E_out, the corresponding one is E_out of h.
+So now, what used to be nu is now E_in of h.
+What used to be mu, inside the bin, is E_out of h.
+
+Now, the Hoeffding Inequality, which we know all too well by now, said that.
+So all I'm going to do is just replace the notation.
+And now it looks a little bit more crowded, but it's exactly the same thing.
+The probability that your in-sample performance deviates from your out-of- sample performance by more than your prescribed tolerance is less than or equal to a number that is hopefully small.
+And you can go back and forth.
+There's nu and mu, or you can go here and you get the new notation. 
+
+So we're settled on the notation now.
+Now, let's go for the multiple bins and use this notation.
+These are the multiple bins as we left them.
+We have the hypotheses h_1 up to h_M, and we have the mu_1 and mu_M.
+And if you see 1, 2, M, again, this is a disappearing nu--
+the symbol that the app doesn't like.
+But thank God we switched notations, so that something will appear.
+Yeah!
+
+So right now, that's what we have.
+Every bin has an out-of-sample performance, and out-of-sample is: Out. Of. Sample.
+So this is a sample.
+What's in it is in-sample.
+What is not in it is out-of-sample.
+And the out-of-sample depends on h_1 here, h_2 here, and h_M here.
+And obviously, these quantities will be different according to the sample, and these quantities will be different according to the ultimate performance of your hypothesis.
+
+So we solved the problem.
+It's not verification. It's not a single bin. It's real learning.
+I'm going to scan these. So that's pretty good. Are we done already?
+Not so fast.
+[LAUGHING]
+What's wrong?
+Let me tell you what's wrong.
+The Hoeffding Inequality, that we have happily studied and declared important and all of that, doesn't apply to multiple bins. What?
+You told us mathematics, and you go read the proof, and all of that.
+Are you just pulling tricks on us?
+What is the deal here?

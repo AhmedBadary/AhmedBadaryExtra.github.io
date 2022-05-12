@@ -1,0 +1,39 @@
+<nav class="main-nav">
+    <a href="https://ahmedbadary.github.io/" class="main-nav-logo">
+        <img src="/main_files/logo.png">
+    </a>
+    <ul id="menu-main" class="main-nav-items">
+        <li id="menu-item-1859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1859">
+            <a href="/">Home</a>
+        </li>
+        <li id="menu-item-2869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2869">
+            <a href="/work">Work</a>
+        </li>
+        <li id="menu-item-1892" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1892">
+            <a href="/projects">Projects</a>
+        </li>
+        <li id="menu-item-1858" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1858">
+            <a href="/blog">Blog</a>
+        </li>
+        <li id="menu-item-1862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1862">
+            <a href="/about">About</a>
+        </li>
+    </ul>
+</nav>
+
+
+<section class="page-header">
+  <h1 class="project-name">{{ page.title }}</h1>
+  <h2 class="project-tagline">{{ page.tagline }}</h2>
+  <a href="/work_files/school.html" class="btn">Courses</a>
+  <a href="/work_files/school/128a.html" class="btn">Chapters</a>
+  <a href={{ page.prevLink }} class="btn">This Chapter</a>
+</section>
+
+<!-- <div>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div> -->
